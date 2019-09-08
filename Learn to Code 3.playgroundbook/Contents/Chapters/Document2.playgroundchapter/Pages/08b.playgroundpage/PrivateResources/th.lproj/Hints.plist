@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ใช้ `componentsByCharacter()` เพื่อแยก `emoji` ลงในอาร์เรย์ของสตริงแบบอักขระเดียว
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ตั้งค่า `index` ให้กลับเป็นศูนย์ถ้าถูกนับมาถึงจุดสิ้นสุดของอาร์เรย์:\
+`if index == characters.count {`\
+`   index = 0`\
+`}`
+</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let characters = emoji.componentsByCharacter()`\
+\
+`var chosenEmoji = "🐠"`\
+`chosenEmoji = characters[index]`\
+`let graphic = Graphic(text: chosenEmoji)`\
+`index += 1`\
+`if index == characters.count {`\
+`   index = 0`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 👏💪
+
+เพิ่มประกายเล็กน้อย ✨ ไปยังข้อความและฉากโดยการใช้อิโมจิ
+
+Experiment with different values for `scale` and `rotation`.
+
+[**หน้าถัดไป**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

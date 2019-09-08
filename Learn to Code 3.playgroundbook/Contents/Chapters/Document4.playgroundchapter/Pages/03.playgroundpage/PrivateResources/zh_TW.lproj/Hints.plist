@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+製作一個工具，為它命名並設定表情符號圖像。範例：\
+`let fruitTool = Tool(name: "Fruit", emojiIcon: "🍒")`\
+或：\
+`let greetingTool = Tool(name: "Greeting", emojiIcon: "🙏")`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+設定工具的 `onFingerMoved` 屬性到其中一個事件處理器函數的完整名稱。範例：\
+`fruitTool.onFingerMoved = addFruit(touch:)`\
+或：\
+`greetingTool.onFingerMoved = addGreeting(touch:)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+最後，在場景中加入工具。範例：\
+`scene.tools.append(fruitTool)`\
+或：\
+`scene.tools.append(greetingTool)`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 恭喜！
+
+**挑戰：** 嘗試編寫你自己的 `onFingerMoved` 函數，並且加入新工具來呼叫它。
+
+[**下一頁**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

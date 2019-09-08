@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    moveForward()
+    turnAround()
+    collectGem()
+    moveForward()
+    turnRight()
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1453, 87}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1453, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>solveStair()
+solveStair()
+solveStair()
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1622, 40}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1535, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document2.playgroundchapter/Pages/Exercise3.playgroundpage/Contents.swift</string>
+</dict>
+</plist>

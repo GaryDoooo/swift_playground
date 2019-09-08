@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+如果你持續用 `1` 來遞增 `index`，它最終會指向 `animals` 陣列的最後一個項目*之外*。若發生此情況，你可以將 `index` 設回 `0`。這樣便可以讓陣列再次循環迴圈。
+
+遞增 `index` 之後，請檢查它是否等於 `animals.count`。如果是，將 `index` 設定等於 `0`，讓它指回陣列中的第一個項目。
+			</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+ `if index == animals.count {`\
+ `   index = 0`\
+ `}`		
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 做得好！
+
+請記住陣列中的索引從 0（第一個項目）開始，且最大值為陣列總數減 1（最後一個項目）。因此，如果索引等於總數，表示索引超出了陣列的最後一項，此時應當將索引設回為 0。
+
+[**下一頁**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+使用 `things[index]` 和 `colors[index]` 來取得空間的事物和顏色。
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let graphic = Graphic(text: things[index])`\
+\
+`graphic.textColor = colors[index]`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 做得好！
+
+你可以使用**文字**工具來放置文字，就像使用**影像**工具放置影像一樣。這兩項工具都會在你移動手指時於場景中放置 `Graphic` 實例。
+
+[**下一頁**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

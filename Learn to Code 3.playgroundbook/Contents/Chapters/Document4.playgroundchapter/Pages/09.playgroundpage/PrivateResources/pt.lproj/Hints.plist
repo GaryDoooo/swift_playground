@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Escreva um código para um tipo específico de fruta. Assim:\
+`if graphic.text == "🍐"{`\
+`   // Fazer algo.`\
+`}`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`if graphic.text == "🍐" {`\
+`   playSound(.pop)`\
+`}`\
+`if graphic.text == "🍊" {`\
+`   playSound(.tennis)`\
+`}`\
+`if graphic.text == "🍋" {`\
+`   playSound(.snare)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Parabéns!
+
+Que tal experimentar um conjunto de emojis diferente (animais, talvez?) e sons diferentes?!
+
+[**Página Seguinte**](@next)
+  	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Schrijf code voor een bepaalde type vrucht, als volgt:\
+`if graphic.text == "🍐"{`\
+`   // Doe iets.`\
+`}`
+
+(graphic = plaatje, text = tekst)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`if graphic.text == "🍐" {`\
+`   playSound(.pop)`\
+`}`\
+`if graphic.text == "🍊" {`\
+`   playSound(.tennis)`\
+`}`\
+`if graphic.text == "🍋" {`\
+`   playSound(.snare)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Gefeliciteerd!
+
+Waarom probeer je niet een andere set emoji (misschien dieren?) en andere geluiden?!
+
+[**Volgende pagina**](@next)
+  	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

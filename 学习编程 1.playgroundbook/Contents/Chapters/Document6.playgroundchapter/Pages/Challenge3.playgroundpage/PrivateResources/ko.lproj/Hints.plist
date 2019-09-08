@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>코드를 실행할 때마다 발판 길이가 변화합니다. 이런 유형의 변화가 적용된 해결 방법을 사용하세요.
+            </string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

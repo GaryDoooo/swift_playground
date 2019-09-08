@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Se stai avendo problemi a toccare gli UFF, aumenta il loro periodo di rivoluzione in `addFructoid` per farli muovere più lentamente.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Quando il valore `scale` dell'elemento grafico toccato va sotto un certo livello (ad esempio, 0,6), distruggilo usando `graphic.moveAndZap(to: blackHole.position)`.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Add code here.`\
+`graphic.scale -= 0.5`\
+`graphic.alpha -= 0.25`\
+`if graphic.scale &lt; 0.6 {`\
+`   graphic.moveAndZap(to: blackHole.position)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Hai vinto la medaglia da schiacciatore di UFF!
+
+**Sfida:** prova a rendere alcuni frutti più difficili da distruggere. Le immagini dei fruttoidi sono create tramite le emoji, quindi puoi confrontare la loro proprietà `text` in questo modo: `if graphic.text == "🍏"`. Se riduci i valori `scale` e `alpha` di incrementi più piccoli, ti serviranno più tocchi per eliminare un frutto.
+
+Nella [**pagina successiva**](@next), imparerai a usare un singolo pulsante per schiacciare tutti gli UFF contemporaneamente!
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

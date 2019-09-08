@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>[`if` ifadenin](glossary://if%20statement) koşulunu, sütunu `5`’ten büyük veya satırı `4`’ten küçük koordinatları denetleyecek şekilde değiştir. [&amp;&amp;](glossary://logical%20AND%20operator) ile [||](glossary://logical%20OR%20operator) işleçleri arasındaki farkı unutma!</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

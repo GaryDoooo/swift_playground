@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Du kan välja en bakgrundsbild från de tillgängliga bilderna eller från bildbiblioteket. Du kan till och med använda kameran till att ta en bakgrundsbild!
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Vilken fantastisk scen!
+
+Om du väljer en bild som är lite transparent eller har genomskinliga delar syns bakgrundsfärgen genom de transparenta delarna av bilden. Om det inte finns en bakgrundsfärg visas ett rutmönster. Du kan ställa in bakgrundsfärgen så här:
+ 
+`scene.backgroundColor = ◼️`
+
+[**Nästa sida**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Este rompecabezas puede resolverse de muchas maneras. Utiliza tus habilidades de construcción de mundos para añadir bloques, portales y escaleras, y resolver el rompecabezas como mejor te parezca.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

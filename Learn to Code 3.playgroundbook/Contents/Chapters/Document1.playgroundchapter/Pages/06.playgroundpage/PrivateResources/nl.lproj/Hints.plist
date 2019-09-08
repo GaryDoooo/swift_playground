@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Plaats het plaatje in een baan rond het midden:\
+`graphic.orbit(x: x, y: y, period: period)`
+
+(graphic = plaatje, orbit = baan, period = tijdsduur)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Verander `period` in een willekeurige `Double` van 0.5 tot 4.0.
+
+(period = tijdsduur, Double = decimaal getal)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Gaaf! De banen van planeten hebben geen geheimen meer voor je!
+
+**Onthoud:** het type `Double` wordt gebruikt voor elke getalswaarde die geen geheel getal is.
+
+(Double = decimaal getal)
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+如果 `touch.previousPlaceDistance` 小於特定值，`addImage()` 函數不會執行任何動作。將這個值設為 80：這樣會在你移動手指時分散 ⭐️ 圖形。
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 瞭解了嗎？
+
+如果使用較大的值，你的手指移動範圍必須更大，直到 `touch.previousPlaceDistance` 達到這個值，同時星星會被放在更遠的距離。嘗試使用一些不同的值吧。
+
+[**下一頁**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+使用**移動**工具讓樂器圖形更靠近中心（音高更高），或更遠離中心（音高更低）。
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+為你提供了兩種樂器工具，但你可以更改它們或加入更多工具。往下捲動來在程式碼中 `// 加入樂器工具`。
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+嘗試看看在樂器圖形上滑動手指。
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+不要讓自己侷限在樂器上，你還可以加入工具來播放音效或朗讀文字。
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

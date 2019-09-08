@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Maak een tool aan en geef deze een naam en een emojisymbool. Voorbeeld:\
+`let fruitTool = Tool(name: "Fruit", emojiIcon: "🍒")`\
+of:\
+`let greetingTool = Tool(name: "Greeting", emojiIcon: "🙏")`
+
+(fruit = vrucht, name = naam, emojiIcon = emojisymbool, greeting = begroeting)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Stel de eigenschap `onFingerMoved` in op de volledige naam van een van de eventhandlerfuncties. Voorbeeld:\
+`fruitTool.onFingerMoved = addFruit(touch:)`\
+of:\
+`greetingTool.onFingerMoved = addGreeting(touch:)`
+		
+
+(onFingerMoved = bij verplaatsen vinger, addFruit = voeg vrucht toe, touch = aanraking, greeting = begroeting, addGreeting = voeg begroeting toe)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Voeg tenslotte de tool aan het tafereel toe. Voorbeeld:\
+`scene.tools.append(fruitTool)`\
+of:\
+`scene.tools.append(greetingTool)`
+
+(scene = tafereel, append = voeg aan einde toe, fruit = vrucht, greeting = begroeting)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Gefeliciteerd!
+
+**Uitdaging:** probeer je eigen `onFingerMoved`-functie te schrijven en voeg een nieuwe tool toe om deze functie aan te roepen.
+
+(onFingerMoved = bij verplaatsen vinger)
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

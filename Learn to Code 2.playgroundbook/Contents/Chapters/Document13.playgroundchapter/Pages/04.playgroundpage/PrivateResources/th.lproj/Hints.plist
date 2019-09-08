@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>แก้ไขเงื่อนไข[ชุดคำสั่ง `if`](glossary://if%20statement) ของคุณเพื่อให้ตรวจสอบพิกัดที่มีคอลัมน์มากกว่า `5` คอลัมน์หรือแถวน้อยกว่า `4`แถว อย่าลืมความแตกต่างของตัวดำเนินการระหว่างตัวดำเนินการ [&amp;&amp;](glossary://logical%20AND%20operator) และ [||](glossary://logical%20OR%20operator)!</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

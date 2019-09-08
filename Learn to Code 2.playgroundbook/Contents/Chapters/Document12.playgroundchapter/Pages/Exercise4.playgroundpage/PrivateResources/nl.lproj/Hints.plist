@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Roep [methoden](glossary://method) aan voor `world` om de virtuele wereld aan te passen. Je kunt zelf bepalen wat je wilt verwijderen of toevoegen! Nadat je een aantal edelstenen en schakelaars hebt toegevoegd, gebruik je je figuurtje om je eigen raadsel op te lossen.
+
+(world = wereld)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array/>
+	<key>solution</key>
+	<string>
+`for graphic in graphics {`\
+`   squishGraphic(graphic: graphic)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Voortreffelijk gedaan!
+
+Je kunt het tafereel voorzien van een enkele knop die je een naam kunt geven. Vervolgens kun je hier je eigen “button tap”-eventhandlerfunctie voor schrijven. Met deze knop kun je allerlei handige dingen doen!
+
+(button tap = tikje op knop)
+
+[**Volgende pagina**](@next)
+  	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

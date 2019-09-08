@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Maak een `Graphic`-instantie aan met `Graphic(image: image)`.
+
+(Graphic = plaatje, image = afbeelding)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Verplaats `position` omhoog en naar rechts voor het volgende plaatje:\
+`position.x += 75`\
+`position.y += 75`
+
+(position = positie)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Create a graphic with image.`\
+`let graphic = Graphic(image: image)`\
+`// Place graphic on the scene.`\
+`scene.place(graphic, at: position)`\
+`// Set position for next graphic.`\
+`position.x += 75`\
+`position.y += 75`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Je bent een ster in het plaatsen van planeten!
+
+**Uitdaging:** kun je de code wijzigen zodat de rij planeten in een ander kwadrant wordt geplaatst, bijvoorbeeld linksboven?
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>呼叫 `world` 上的[方法](glossary://method)來改變關卡世界，加入或移除任何想要更改的部分！加入一些寶石和開關後，使用你的角色來通過你所建立的關卡。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

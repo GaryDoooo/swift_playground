@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array/>
+	<key>solution</key>
+	<string>
+`for graphic in graphics {`\
+`   squishGraphic(graphic: graphic)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Ottimo lavoro!
+
+La scena può avere un singolo pulsante a cui puoi assegnare un nome; puoi scrivere la tua personale funzione gestore eventi “tocco pulsante” da abbinargli. Con questo pulsante puoi fare un sacco di cose utili!
+
+[**Pagina successiva**](@next)
+  	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

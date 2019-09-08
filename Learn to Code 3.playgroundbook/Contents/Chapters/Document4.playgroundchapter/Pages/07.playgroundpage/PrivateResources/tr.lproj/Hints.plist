@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+UFF’lere dokunmakta zorluk çekiyorsan UFF’lerin daha yavaş hareket etmesi için `addFructoid`’deki yörünge süresini artır.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Dokunulan grafiğin `scale` değeri belirli bir düzeyin (örneğin 0.6) altına düştüğünde, `graphic.moveAndZap(to: blackHole.position)` kullanarak grafiği yok et.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Add code here.`\
+`graphic.scale -= 0.5`\
+`graphic.alpha -= 0.25`\
+`if graphic.scale &lt; 0.6 {`\
+`   graphic.moveAndZap(to: blackHole.position)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Görünüşe göre UFF Ezici rozetini kazandın!
+
+**Meydan Okuma:** Bazı meyvelerin yok edilmesini zorlaştır. Bir fruktoid grafiği emojiyle yaratılır, bu yüzden grafiğin `text` özelliğini şu şekilde karşılaştırman yeterli: `if graphic.text == "🍏"`. `scale` ve `alpha` değerlerini daha da azaltırsan meyveyi yok etmek için daha çok sayıda dokunman gerekir.
+
+Bir [**sonraki sayfada**](@next), tek bir düğmeyle tüm UFF’leri aynı anda nasıl ezeceğini öğreneceksin!
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

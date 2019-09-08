@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Maak een `Tool`-instantie aan en geef deze een naam en een emojisymbool.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Stel de eigenschap `onFingerMoved` in op de volledige naam van een “finger moved”-eventhandlerfunctie.
+		
+
+(onFingerMoved = bij verplaatsen vinger, finger moved = vinger verplaatst)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Stel de eigenschap `onGraphicTouched` in op de volledige naam van een “graphic touched”-eventhandlerfunctie.
+
+(onGraphicTouched = bij aanraken plaatje, graphic touched = plaatje aangeraakt)
+
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Fantastisch!
+
+**Onthoud** deze tooleigenschappen:
+
+* `onFingerMoved`: gebruikt een “finger moved”-eventhandlerfunctie met een `Touch`-parameter.
+
+* `onGraphicTouched`: gebruikt een “graphic touched”-eventhandlerfunctie met een `Graphic`-parameter.
+
+(onFingerMoved = bij verplaatsen vinger, finger moved = vinger verplaatst, Touch = aanraking, onGraphicTouched = bij aanraken plaatje, graphic touched = plaatje aangeraakt, Graphic = plaatje)
+
+Op de [**volgende pagina**](@next) leer je hoe je plaatjes wijzigt wanneer je ze aanraakt.
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

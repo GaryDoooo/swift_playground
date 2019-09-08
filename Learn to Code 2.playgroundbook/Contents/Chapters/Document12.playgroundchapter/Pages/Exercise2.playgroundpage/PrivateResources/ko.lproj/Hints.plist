@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`greenPortal` [인스턴스](glossary://instance)를 `place` 메소드로 전달하여 섬 사이를 연결하는 포털을 만들어 보세요.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

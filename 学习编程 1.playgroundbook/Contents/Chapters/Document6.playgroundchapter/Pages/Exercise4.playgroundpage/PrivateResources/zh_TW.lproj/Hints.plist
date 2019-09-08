@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>你需要編寫兩個迴圈。第一個為[外迴圈](glossary://outer%20loop)，它會在你的角色不受阻擋時執行。第二個為[內迴圈](glossary://inner%20loop)，讓你的角色不在寶石處時向前走。  外迴圈將一直執行內迴圈，直到外迴圈停止。透過這種方式，內 `while` 迴圈會持續執行，直到滿足終止條件。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

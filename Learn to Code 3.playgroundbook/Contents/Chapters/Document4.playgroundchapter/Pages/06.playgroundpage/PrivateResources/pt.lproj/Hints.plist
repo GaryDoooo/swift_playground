@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Se você definir o valor `alpha` dos gráficos tocados em torno de 0.25, o gráfico será quase transparente.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Use uma instrução `if` com o operador `&lt;` para verificar se `graphic.alpha` é menor que 1.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Modify alpha.`\
+`if graphic.alpha &lt; 1.0 {`\
+`   graphic.alpha = 1.0`\
+`} else {`\
+`   graphic.alpha = 0.25`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Bom trabalho!
+
+Na [**página seguinte**](@next), você espremerá gráficos para se divertir!
+			</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`Emojiyi` tek karakterlik dizgilere bölmek için `componentsByCharacter()` fonksiyonunu kullan.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`index` dizi sonuna ulaştıysa onu tekrar sıfıra ayarla:\
+`if index == characters.count {`\
+`   index = 0`\
+`}`
+</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let characters = emoji.componentsByCharacter()`\
+\
+`var chosenEmoji = "🐠"`\
+`chosenEmoji = characters[index]`\
+`let graphic = Graphic(text: chosenEmoji)`\
+`index += 1`\
+`if index == characters.count {`\
+`   index = 0`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 👏💪
+
+Emoji kullanarak metnine ve sahneye biraz pırıltı ✨ kat.
+
+`scale` ve `rotation` için farklı değerlerle denemeler yap.
+
+[**Sonraki Sayfa**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

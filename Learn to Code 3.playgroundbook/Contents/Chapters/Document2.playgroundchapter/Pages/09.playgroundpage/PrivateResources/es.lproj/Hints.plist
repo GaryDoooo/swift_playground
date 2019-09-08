@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Coloca un gráfico en cada cuadrante calculando las coordenadas (x, y) para cada uno.\
+Por ejemplo, obtén la posición del gráfico en el cuadrante inferior izquierdo:\
+`let position3 = Point(x: -x, y: -y)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Idea:** Establece los parámetros `rotation` —rotación— y `scale` —escala— de cada gráfico en los mismos valores aleatorios:\
+`let rotation = randomDouble(from: 0, to: 180)`\
+`let scale = randomDouble(from: 0.5, to: 2.5)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Idea:** Haz que cada gráfico se desvanezca después de un tiempo:\
+`graphic.fadeOut(after: 2.0)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Idea:** Mueve cada gráfico a su posición desde la posición de toque:\
+`scene.place(graphics[0], at: touch.position)`\
+`graphics[0].move(to: position1, duration: 2.0)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Esta es una página para **Crear** y no incluye ninguna solución. Deja volar tu creatividad y pon en práctica tus propias ideas.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

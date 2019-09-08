@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>다음과 같이 `place()`를 활용하여 퍼즐에 보석이나 스위치를 추가해 보세요. `world.place(Gem(), atColumn: 3, row: 3)`</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

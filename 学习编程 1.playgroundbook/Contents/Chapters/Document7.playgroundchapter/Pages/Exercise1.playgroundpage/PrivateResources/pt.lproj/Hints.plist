@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Para começar, execute o código fornecido. A função `navigateAroundWall()` moverá o personagem ao longo de uma das paredes do mundo do puzzle. Trabalhe com o código existente e ajuste-o para coletar todas as joias e acionar o controle que está no canto mais distante do mundo.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

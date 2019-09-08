@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Ottieni la posizione successiva e incrementa `pointIndex`:\
+`let position = points[pointIndex]`\
+`pointIndex += 1`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Reimposta `pointIndex` in modo che rimanga nei limiti dell’array:\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Get position.`\
+`let position = points[pointIndex]`\
+`// Increment pointIndex.`\
+`pointIndex += 1`\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`\
+`// Move graphic to position.`\
+`graphic.move(to: position, duration: 1.0)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Congratulazioni!
+
+Sperimenta con diversi punti, funzioni e parametri per ottenere schemi diversi.
+
+**Sfida:** i punti restituiti da una funzione schema sono posizionati attorno al centro della scena. Puoi facilmente aggiungere uno slittamento x, y a ciascun punto, posizionando lo schema dove preferisci. Prova a vedere se riesci a posizionare diversi schemi in luoghi diversi della scena.
+
+[**Pagina successiva**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

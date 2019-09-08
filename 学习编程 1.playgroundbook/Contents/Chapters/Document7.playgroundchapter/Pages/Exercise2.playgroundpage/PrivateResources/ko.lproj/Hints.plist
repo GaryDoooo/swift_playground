@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>이전 과제에서 사용한 코드를 가지고 약간 다른 퍼즐을 해결할 수 있는지 시도해 보세요. 오른쪽만 막혀 있었던 것과 다르게 이제는 앞과 오른쪽이 막혀 있어서 다른 동작을 수행해야 합니다.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

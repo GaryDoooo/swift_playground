@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Utilizza `componentsByCharacter()` per dividere `emoji` in un array di stringhe di un solo carattere.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Reimposta `index` su zero se ha raggiunto la fine dell'array:\
+`if index == characters.count {`\
+`   index = 0`\
+`}`
+</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let characters = emoji.componentsByCharacter()`\
+\
+`var chosenEmoji = "🐠"`\
+`chosenEmoji = characters[index]`\
+`let graphic = Graphic(text: chosenEmoji)`\
+`index += 1`\
+`if index == characters.count {`\
+`   index = 0`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 👏💪
+
+Dai un tocco di magia ✨ al testo e alla scena usando le emoji.
+
+Sperimenta con diversi valori per `scale` (scala) e `rotation` (rotazione).
+
+[**Pagina successiva**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

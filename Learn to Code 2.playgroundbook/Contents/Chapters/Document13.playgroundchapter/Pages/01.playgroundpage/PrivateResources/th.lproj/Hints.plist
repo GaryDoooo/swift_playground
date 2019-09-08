@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>เมื่อตั้งชื่อ[ตัวแปร](glossary://variable)ใน `for`-`in` loop ของคุณ อย่าลืมใช้ [camelCase](glossary://camelCase) โดยเริ่มต้นตัวแปรด้วยตัวอักษรพิมพ์เล็ก ตัวอย่างเช่น `column`, `currentColumn` หรือ `eachColumn` คงจะทำหน้าที่เป็นชื่อของตัวแปรได้ทั้งหมด คุณคงไม่สามารถใช้ชื่อ `Column` ในลักษณะนี้ได้เนื่องจากขึ้นต้นด้วยตัวพิมพ์ใหญ่</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`for`-`in` 루프에 있는 [변수](glossary://variable)의 이름을 지정할 때, 변수 이름이 소문자로 시작하는 [카멜 표기법](glossary://camelCase)을 따르도록 합니다. 예를 들어, `column`, `currentColumn`, `eachColumn`은 모두 변수 이름에 알맞습니다. `Column`은 대문자로 시작하므로 변수 이름에는 알맞지 않습니다.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>이 퍼즐은 지금까지 본 것과는 다르게 생겼지만 오른손 법칙으로 퍼즐을 해결할 수 있습니다. 미로에서 오른쪽 벽만 따라가면 결국에는 캐릭터가 보석에 도달하게 될 거예요.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

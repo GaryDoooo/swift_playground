@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`randomInt(from: 0, to: 23)`를 사용하여 음을 임의로 설정해보세요.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+음의 소리가 너무 크다면 선택사항인 `volume` 매개변수를 추가해보세요.\
+`playInstrument(.piano, note: 14, volume: 40)`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let note = randomInt(from: 0, to: 15)`\
+`if graphic.text == "🍐" {`\
+`   playInstrument(.piano, note: note)`\
+`}`\
+`if graphic.text == "🍋" {`\
+`   playInstrument(.electricGuitar, note: note)`\
+`}`
+`if graphic.text == "🍊" {`\
+`   playInstrument(.cosmicDrums, note: note)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 잘했어요! 연주의 기초를 배워보았습니다.
+
+다음으로 이동하기 전에 다양한 악기와 음으로 마음껏 실험해보세요.
+
+[**다음 페이지**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

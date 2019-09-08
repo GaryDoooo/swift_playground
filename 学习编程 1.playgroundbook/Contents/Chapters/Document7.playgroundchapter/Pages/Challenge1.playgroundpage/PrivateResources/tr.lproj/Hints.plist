@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Önce, bulmacada bir örüntü ara. Bir örüntü bulduğunda, bu örüntünün her bir parçasının hangi kurallar ve yönergelerle çözüleceğini düşün. Bir yöntem bulduğunda kodunu yaz.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Mücevher varken yolun sağa gittiğine dikkat et. Düğme varken yol sola gider. Algoritmanı yaratmak için bu örüntüyü kullan.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

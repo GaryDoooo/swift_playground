@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Aunque este rompecabezas parezca distinto de todos los que has visto hasta ahora, puedes resolverlo utilizando la regla de la mano derecha. Si sigues el muro derecho del laberinto, tarde o temprano el personaje llegará hasta la gema.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

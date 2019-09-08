@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`Graphic(image: image)`을 사용하여 `Graphic` 인스턴스를 생성해보세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+다음 그래픽의 `position`을 위쪽으로 이동시킨 다음, 오른쪽으로 이동시킵니다.\
+`position.x += 75`\
+`position.y += 75`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Create a graphic with image.`\
+`let graphic = Graphic(image: image)`\
+`// Place graphic on the scene.`\
+`scene.place(graphic, at: position)`\
+`// Set position for next graphic.`\
+`position.x += 75`\
+`position.y += 75`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 행성을 ‘별’나게 잘 놓으시네요!
+
+**도전 과제:** 코드를 변경하여 행성들을 다른 사분면으로 놓아보세요. 왼쪽 상단으로는 어떠세요?
+
+[**다음 페이지**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

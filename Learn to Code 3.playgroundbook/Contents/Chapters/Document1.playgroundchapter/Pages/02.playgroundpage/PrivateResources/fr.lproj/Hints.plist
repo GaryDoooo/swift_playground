@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Tu peux choisir une image d’arrière-plan parmi les images disponibles ou dans ta photothèque. Tu peux même utiliser un appareil photo pour prendre une photo à utiliser comme arrière-plan !
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Quelle magnifique scène !
+
+Si tu choisis une image qui possède des parties transparentes, la couleur d’arrière-plan affiche les parties transparentes de l’image. S’il n’y a pas de couleur d’arrière-plan, tu verras un pattern d’échiquier. Tu peux configurer la couleur d’arrière-plan comme suit :
+ 
+`scene.backgroundColor = ◼️`
+
+[**Page suivante**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

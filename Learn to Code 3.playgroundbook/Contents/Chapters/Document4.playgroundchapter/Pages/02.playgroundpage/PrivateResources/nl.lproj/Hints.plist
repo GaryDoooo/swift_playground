@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Onthoud:** de volledige naam van een functie bevat de door een dubbele punt (`:`) van elkaar gescheiden parameternamen. De volledige functienaam van `addAlien()` is `addAlien(touch:)`.
+
+(addAlien = voeg alien toe, touch = aanraking)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Goed gedaan!
+
+ Misschien vraag je je af hoe je een eigenschap als `onFingerMoved` kunt instellen voor een functie. Dit zit zo: `onFingerMoved` heeft in plaats van een type als `String` of `Int` een type *function*. Dit type kan worden ingesteld voor elke functie die slechts één `Touch`-parameter heeft, zoals `addAlien(touch:)` of `addMonster(touch:)`.
+
+(onFingerMoved = bij verplaatsen vinger, Touch = aanraking, addAlien = voeg alien toe, addMonster = voeg monster toe)
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

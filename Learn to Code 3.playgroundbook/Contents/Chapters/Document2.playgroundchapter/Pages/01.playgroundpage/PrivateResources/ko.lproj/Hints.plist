@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+그래픽에 사용된 이미지를 탭한 다음, 다른 이미지를 선택해 보세요. 개구리나 외계인도 좋아요. 귀여운 괴물(👾)은 어떠세요?
+	</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 참 잘했어요! 🌟
+
+손가락을 드래그하는 대신에 여러 곳을 탭해보세요. 탭할 때마다 새로운 그래픽이 추가되는 것을 볼 수 있습니다. 탭 한 번이 터치 이벤트 하나로 인식되어 `addImage()`가 한 번만 호출되기 때문이죠.
+
+[**다음 페이지**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

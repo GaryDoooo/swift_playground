@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`componentsByCharacter()`를 사용하여 `emoji`를 단일 문자로 이루어진 문자열 배열로 분리하세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`index`가 배열의 끝에 도달하면 0으로 재설정되도록 하세요.\
+`if index == characters.count {`\
+`   index = 0`\
+`}`
+</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let characters = emoji.componentsByCharacter()`\
+\
+`var chosenEmoji = "🐠"`\
+`chosenEmoji = characters[index]`\
+`let graphic = Graphic(text: chosenEmoji)`\
+`index += 1`\
+`if index == characters.count {`\
+`   index = 0`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 👏💪
+
+이모티콘을 사용하여 텍스트와 코딩 영역에 반짝이는 별(✨)을 달아보세요.
+
+`scale` 및 `rotation`에 다양한 값을 입력하여 실험해보세요.
+
+[**다음 페이지**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

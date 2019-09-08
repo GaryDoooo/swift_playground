@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Você precisa colocar uma instância do personagem em cada uma das casas do mundo do puzzle. Modifique o seu [vetor](glossary://array) para que ele contenha todos os valores de linha de `0` a `5`.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

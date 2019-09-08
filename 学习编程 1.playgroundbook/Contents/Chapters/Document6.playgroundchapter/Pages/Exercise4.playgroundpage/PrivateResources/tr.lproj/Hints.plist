@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>İki döngü yazman gerekiyor. İlkinin ([dış döngünün](glossary://outer%20loop)) karakterinin önünde engel yokken çalışmasını sağla. İkincinin ([iç döngünün](glossary://inner%20loop)) karakterini mücevher üzerinde değilken ilerletmesini sağla.   Dıştaki döngü duruncaya dek içteki döngü çalışmaya devam eder. Bu şekilde içteki `while` döngüsü, bitiş koşulu sağlanıncaya dek sürekli çalışır.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

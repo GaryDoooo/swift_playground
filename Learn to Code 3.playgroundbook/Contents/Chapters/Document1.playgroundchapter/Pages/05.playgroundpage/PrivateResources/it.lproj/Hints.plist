@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Ricorda:** il primo elemento di un array si trova all’indice 0.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Suggerimento:** quando lavori con gli [array](glossary://array) e gli [indici](glossary://index), può farti comodo prendere una matita e un foglio di carta e disegnare l’array con i suoi elementi e indici.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Insert and remove items.`\
+`images.insert(rugbyBall, at: 1)`\
+`images.remove(at: 4)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Super!
+
+Tenere traccia degli array e degli indici può essere complicato! Ipotizza di aver rimosso il pianeta Palla da Biliardo e poi di voler inserire il pianeta Palla da Rugby alla fine dell’array, dopo il pianeta Palla da Basket. In quale indice inseriresti Palla da Rugby?
+
+[**Pagina successiva**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

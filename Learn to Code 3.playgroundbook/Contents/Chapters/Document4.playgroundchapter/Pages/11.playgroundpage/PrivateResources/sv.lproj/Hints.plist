@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Använd verktyget **Flytta** till att flytta instrumentgrafiken närmare mitten (för en högre tonhöjd) eller längre bort (för en lägre tonhöjd).
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Det finns två färdiga instrumentverktyg åt dig, men du kan ändra dem eller lägga till fler. Rulla ned till `// Add instrument tools` i koden.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Prova att dra fingret ovanpå instrumentgrafik.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Begränsa dig inte till instrument – du kan lägga till ett verktyg för att spela upp ljudeffekter eller läsa upp text.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

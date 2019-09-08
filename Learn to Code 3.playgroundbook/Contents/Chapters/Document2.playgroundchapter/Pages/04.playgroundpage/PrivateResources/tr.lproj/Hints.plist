@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`index`, `1`’er artırılmaya devam ederse sonunda `animals` dizisindeki son öğenin *ötesini* işaret eder. Bu durumda `index`’i tekrar `0`’a ayarlayabilirsin. Böylece diziye yeniden baştan başlanabilir.
+
+`index`’i artırdıktan sonra `animals.count`’a eşit olup olmadığını denetle. Eşitse `index`’in tekrar dizideki ilk öğeye işaret etmesi için `index`’i `0`’a ayarla.
+			</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+ `if index == animals.count {`\
+ `   index = 0`\
+ `}`		
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Bravo!
+
+Dizi indeksinin 0’dan (ilk öğe) başlayıp dizi sayısı eksi 1’e (son öğe) kadar çıktığını unutma. Bu yüzden indeks, dizi sayısına *eşit* olursa dizi sonunu geçmiş demektir ve tekrar 0’a ayarlanması gerekir.
+
+[**Sonraki Sayfa**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

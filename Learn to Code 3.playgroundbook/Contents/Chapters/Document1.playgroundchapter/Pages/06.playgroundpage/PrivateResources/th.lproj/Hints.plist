@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+นำภาพลงในวงโคจรรอบๆ จุดศูนย์กลาง:\
+`graphic.orbit(x: x, y: y, period: period)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ลองเปลี่ยน `period` ให้เป็นค่า `Double` แบบสุ่มจาก 0.5 ถึง 4.0.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### สุดยอดไปเลย! คุณได้บรรลุถึงศิลปะแห่งการเคลื่อนไหวแบบดาวเคราะห์แล้ว!
+
+**อย่าลืมว่า:** ค่าประเภท `Double` นั้นถูกใช้สำหรับค่าตัวเลขใดก็ตามที่ไม่ใช้จำนวนเต็ม
+
+[**หน้าถัดไป**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

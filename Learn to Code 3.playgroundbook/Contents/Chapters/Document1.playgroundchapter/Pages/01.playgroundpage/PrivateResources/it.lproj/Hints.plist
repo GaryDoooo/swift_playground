@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Ricorda che la scena è quadrata e si estende da `Point(x: -500, y: -500)` in basso a sinistra a `Point(x: 500, y: 500)` in alto a destra.
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Disegna l’universo su un foglio di carta e segna l’origine (0, 0). Quindi segna il punto in cui credi che si trovi il centro della galassia e stima quali potrebbero essere le sue coordinate.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+La galassia è nel quadrante in alto a destra della scena, quindi le sue coordinate saranno qualcosa come (x, y).
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Ce l’hai fatta!
+
+Ogni volta che vuoi inserire un nuovo elemento grafico sulla scena, crea prima un’istanza di tipo `Graphic`, quindi richiama il metodo `place()` della scena trasmettendo l’istanza di `Graphic` e un valore `Point`.
+
+[**Pagina successiva**](@next)
+            </string>
+		</dict>
+	</dict>
+</dict>
+</plist>

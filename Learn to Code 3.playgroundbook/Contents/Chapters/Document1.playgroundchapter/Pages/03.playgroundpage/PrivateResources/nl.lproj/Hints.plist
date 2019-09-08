@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Maak een schets van de x- en y-as op papier om je te helpen de coördinaten te bepalen. Onthoud dat x de horizontale as is en y de verticale as, met (0, 0) in het midden.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+De coördinaten in de vier kwadranten hebben elk een verschillende combinatie van positieve of negatieve x- en y-waarden, rechtsboven: (+, +), rechtsonder: (+, -), linksonder: (-, -) en rechtsboven: (-, +).
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Goed gedaan!
+
+ Hoe zou je code eruitzien als je 10 of zelfs 30 objecten aan het tafereel zou moeten toevoegen?! Zoals je ziet, wordt er veel code herhaald. Telkens wanneer je ziet dat code zo vaak wordt herhaald, moet je je afvragen: “Is er misschien een betere manier?”
+ 
+ **Denk na:** is er een efficiëntere manier om dit te doen met een array?
+
+ Meer hierover op de [**volgende pagina**](@next).
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

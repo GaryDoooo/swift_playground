@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Bir ad ve emoji simgesi vererek bir `Tool` örneği yarat.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Aracın `onFingerMoved` özelliğini “parmak hareket ettirildi” olay işleyici fonksiyonunun tam adına ayarla.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Aracın `onGraphicTouched` özelliğini “grafiğe dokunuldu” olay işleyici fonksiyonunun tam adına ayarla.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Harika iş!
+
+Şu araç özelliklerini **unutma**:
+
+* `onFingerMoved`: `Touch` parametresi olan bir “parmak hareket ettirildi” olay işleyici fonksiyonu alır.
+
+* `onGraphicTouched`: `Graphic` parametresi olan bir “grafiğe dokunuldu” olay işleyici fonksiyonu alır.
+
+Bir [**sonraki sayfada**](@next), grafikleri dokunarak nasıl değiştireceğini öğreneceksin.
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

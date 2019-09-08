@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+                <string>Use the machine to [forge](glossary://forge) new items! All you need to do is set your inputs with `setItemA()` and `setItemB()`, then use `forgeItems()` to combine them.
+- callout(Example):
+    ```
+    setItemA(.metal)
+    setItemB(.dirt)
+    forgeItems()
+    ```</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>The machine needs new eyeballs. Can you help? Try combining DNA with another item and see what the machine creates.</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>The machine might need some metal in those eyeballs, as well.</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

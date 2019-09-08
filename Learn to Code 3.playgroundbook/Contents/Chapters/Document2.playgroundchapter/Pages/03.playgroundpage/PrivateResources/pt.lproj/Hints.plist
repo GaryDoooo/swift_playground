@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Para mover um gráfico, selecione a ferramenta **Mover** e arraste o gráfico com o dedo.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Para remover um gráfico, selecione a ferramenta **Apagar** e toque no gráfico.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Esta é uma página de **Experiência** e nenhuma solução é fornecida. Você pode experimentar para se divertir e desenvolver as suas próprias soluções.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

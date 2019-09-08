@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Börja genom att köra koden som följde med. Funktionen `navigateAroundWall()` flyttar figuren hela vägen runt en av väggarna i pusselvärlden. Jobba med den befintliga koden och justera den för att hämta alla stenar och växla reglaget i hörnet längst bort i världen.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

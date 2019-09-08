@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Vraag de volgende positie op en verhoog `pointIndex`:\
+`let position = points[pointIndex]`\
+`pointIndex += 1`
+
+(pointIndex = puntenindex, position = positie, points = punten)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Stel `pointIndex` opnieuw in zodat de index binnen het bereik van de array blijft:\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`
+
+(pointIndex = puntenindex, points = punten, count = aantal)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Get position.`\
+`let position = points[pointIndex]`\
+`// Increment pointIndex.`\
+`pointIndex += 1`\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`\
+`// Move graphic to position.`\
+`graphic.move(to: position, duration: 1.0)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Gefeliciteerd!
+
+Experimenteer met verschillende punten, functies en parameters om verschillende patronen te maken.
+
+**Uitdaging:** de punten die worden geretourneerd door een patroonfunctie worden rond het midden van het tafereel gepositioneerd. Je kunt eenvoudig een x- en y-verschuiving aan elk punt toevoegen, zodat je het patroon overal kunt plaatsen waar je maar wilt. Kijk of je diverse patronen op verschillende plaatsen in het tafereel kunt plaatsen.
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

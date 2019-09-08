@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+使用 `Graphic(image: image)` 建立一個 `Graphic` 實例。
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+讓下一個圖形的 `position` 往右上移動：\
+`position.x += 75`\
+`position.y += 75`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Create a graphic with image.`\
+`let graphic = Graphic(image: image)`\
+`// Place graphic on the scene.`\
+`scene.place(graphic, at: position)`\
+`// Set position for next graphic.`\
+`position.x += 75`\
+`position.y += 75`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 你是放置星球的專家！
+
+**挑戰：** 你能不能更改程式碼，將一排星球放入不同的象限，比方說左上象限呢？
+
+[**下一頁**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

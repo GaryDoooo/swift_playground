@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>คุณต้องเขียนสอง loop ก่อนอื่นให้สร้าง [outer loop](glossary://outer%20loop) ซึ่งรันขณะที่ตัวละครของคุณถูกบล็อก จากนั้นสร้าง [inner loop](glossary://inner%20loop) เพื่อเคลื่อนที่ตัวละครของคุณไปข้างหน้าขณะที่ไม่ได้อยู่บนช่องที่มีเพชร   outer loop จะรัน inner loop ต่อไปจนกว่า outer loop จะหยุด ในกรณีเช่นนี้ inner `while` loop จะรันต่อไปจนกว่าจะตรงตามเงื่อนไขสุดท้าย</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

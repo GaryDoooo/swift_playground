@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>O [erro de vetor fora dos limites](glossary://array%20out%20of%20bounds%20error) acontece quando você tenta usar um índice que está fora dos limites do vetor.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

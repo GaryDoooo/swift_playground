@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`Tool` 인스턴스를 생성하고 도구의 이름과 이모티콘을 지정하세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+도구의 `onFingerMoved` 속성을 ‘손가락 움직임’ 이벤트 핸들러 함수의 전체 이름에 지정합니다.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+도구의 `onGraphicTouched` 속성을 ‘그래픽 터치됨’ 이벤트 핸들러 함수의 전체 이름에 지정합니다.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 잘했어요!
+
+**잊지 마세요** 중요한 도구 속성입니다.
+
+* `onFingerMoved`: `Touch` 매개변수를 가진 ‘손가락 움직임’ 이벤트 핸들러 함수를 받습니다 .
+
+* `onGraphicTouched`: `Graphic` 매개변수를 가진 ‘그래픽 터치됨’ 이벤트 핸들러 함수를 받습니다.
+
+[**다음 페이지**](@next)에서 그래픽을 터치하고 수정하는 방법에 대해 배워보세요.
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Je kunt het onderdeel 'spring' [doorgeven](glossary://pass) aan de [functie](glossary://function) `setItemA()` om het als invoer voor de machine te gebruiken.
+- callout(Voorbeeld):
+    ```
+    setItemA(.spring)
+    setItemB(.metal)
+    forgeItems()
+    ```
+
+(spring = veer, setItemA = stel onderdeel A in, setItemB = stel onderdeel B in, metal = metaal, forgeItems = voeg onderdelen samen)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Combineer het onderdeel 'spring' met andere onderdelen totdat je een [eindproduct](glossary://final%20product) voor de machine hebt gemaakt.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Je zou het onderdeel 'spring' met iets zachts kunnen combineren om een raar hoofddeksel te maken.
+
+(spring = veer)</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

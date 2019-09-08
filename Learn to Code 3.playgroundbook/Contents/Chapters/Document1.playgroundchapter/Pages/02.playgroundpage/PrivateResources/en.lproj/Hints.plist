@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+You can choose a background image from the available images or from your photo library. You can even use the camera to take a photo for the background!
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### What a beautiful scene!
+
+If you choose an image that has some transparent or see-through parts, the background color shows through the transparent parts of the image. If there is no background color, you’ll see a checkerboard pattern. You can set the background color like this:
+ 
+`scene.backgroundColor = ◼️`
+
+[**Next Page**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

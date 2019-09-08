@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Disegna gli assi x e y su un foglio di carta per aiutarti a capire le coordinate. Ricorda che x è l’asse orizzontale e y è l’asse verticale, con (0, 0) al centro.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Le coordinate nei quattro quadranti avranno ciascuna una diversa combinazione di valori x, y positivi o negativi. In alto a destra: (+, +); in basso a destra: (+, -); in basso a sinistra: (-, -); in alto a sinistra: (-, +).
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Ottimo lavoro!
+
+ Come sarebbe il tuo codice se dovessi posizionare 10 oggetti sulla scena o addirittura 30?! Guarda quanto codice viene ripetuto. Ogni volta che vedi del codice che si ripete, prova a chiederti “C’è un modo migliore?”.
+ 
+ **Pensa:** c’è un modo più efficiente per farlo utilizzando un array?
+
+ Scoprilo nella [**pagina successiva**](@next).
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

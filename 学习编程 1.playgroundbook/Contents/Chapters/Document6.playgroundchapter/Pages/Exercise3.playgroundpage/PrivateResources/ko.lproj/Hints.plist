@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>퍼즐을 살펴보고 [루프](glossary://loop)를 사용하는 해결 방법을 생각해 보세요. 여러 가지 다른 접근 방식이 도움이 될까요?</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

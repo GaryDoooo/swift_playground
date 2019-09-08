@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Você pode escolher uma imagem de fundo das imagens disponíveis ou da sua fototeca. Você pode até usar a câmera para tirar uma foto e usá-la como fundo!
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Que cena bonita!
+
+Se você escolher uma imagem que tenha algumas partes transparentes ou translúcidas, a cor do fundo aparece através das partes transparentes da imagem. Se não houver uma cor de fundo, você vê um padrão quadriculado. Você pode definir a cor do fundo assim:
+ 
+`scene.backgroundColor = ◼️`
+
+[**Página Seguinte**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

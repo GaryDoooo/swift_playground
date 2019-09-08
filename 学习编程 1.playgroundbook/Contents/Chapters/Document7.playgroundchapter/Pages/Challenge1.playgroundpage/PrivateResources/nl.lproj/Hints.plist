@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Probeer eerst een patroon in het raadsel te ontdekken. Als je een patroon hebt gevonden, probeer je te bedenken met welke regels en instructies je elk stukje van het patroon kunt oplossen. Nadat je een benadering hebt bedacht, schrijf je de code.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Zie je dat het pad naar rechts afbuigt als er edelstenen zijn? Wanneer er schakelaars zijn, buigt het pad af naar links. Gebruik dit patroon om een algoritme te maken.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

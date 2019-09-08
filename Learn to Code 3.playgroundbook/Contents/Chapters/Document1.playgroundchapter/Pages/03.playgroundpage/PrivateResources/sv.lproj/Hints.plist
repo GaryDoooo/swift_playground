@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Rita upp x- och y-axlarna på papper som hjälp för att komma på koordinaterna. Kom ihåg att x är den horisontella axeln, och att y är den vertikala, med (0, 0) i mitten.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Koordinaterna i de fyra kvadranterna kommer att ha olika kombinationer av positiva eller negativa x- och y-värden – övre högra: (+, +), nedre högra: (+, -), nedre vänstra: (-, -) och övre vänstra: (-, +).
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Bra jobbat!
+
+ Hur skulle koden se ut om du var tvungen att placera in 10 objekt på scenen, eller till och med 30?! Lägg märke till hur mycket kod det är som upprepas. Varje gång du ser kod som upprepas så här kan du fundera på om det finns ett bättre sätt.
+ 
+ **Tänk:** Finns det ett effektivare sätt att göra det här med en array?
+
+ Se hur på [**nästa sida**](@next).
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

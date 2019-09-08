@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Kom ihåg att scenen är en kvadrat som sträcker sig från `Point(x: -500, y: -500)` i nedre vänstra hörnet till `Point(x: 500, y: 500)` i övre högra hörnet.
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Rita upp universumet på en bit papper och märk ut origo (0, 0). Märk sedan ut var du tror att galaxens mitt finns och uppskatta ungefär vilka koordinaterna är.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Galaxen finns i scenens övre högra kvadrant, så koordinaterna blir något i stil med (x, y).
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Du förstår verkligen det här!
+
+När du vill placera in en ny grafik på scenen skapar du först en instans av typen `Graphic`. Sedan anropar du scenens metod `place()` och överför instansen `Graphic` och ett `Point`-värde.
+
+[**Nästa sida**](@next)
+            </string>
+		</dict>
+	</dict>
+</dict>
+</plist>

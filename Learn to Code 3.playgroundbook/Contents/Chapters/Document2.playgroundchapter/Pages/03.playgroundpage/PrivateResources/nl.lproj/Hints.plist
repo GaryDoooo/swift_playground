@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Om een plaatje te verplaatsen, selecteer je de tool **Verplaats** en sleep je het plaatje met je vinger.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Om een plaatje te verwijderen, selecteer je de tool **Wis** en tik je op het plaatje.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Dit is een **experimentpagina** en er is geen oplossing opgegeven. Veel plezier met experimenteren en het verzinnen van je eigen oplossingen.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

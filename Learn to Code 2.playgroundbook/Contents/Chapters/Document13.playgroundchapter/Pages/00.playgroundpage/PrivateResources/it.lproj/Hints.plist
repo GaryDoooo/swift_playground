@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Devi inserire un'istanza del personaggio su ogni casella del mondo del livello. Modifica l'[array](glossary://array) in modo da includere tutti i valori di riga da `0` a `5`.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

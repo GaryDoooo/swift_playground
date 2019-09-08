@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Necesitas escribir dos bucles: el primero —el [bucle externo](glossary://outer%20loop)—, para que se ejecute mientras el personaje no esté bloqueado; el segundo —el [bucle interno](glossary://inner%20loop)—, para que el personaje avance mientras no haya una gema.   El bucle externo continuará ejecutando el bucle interno hasta que el primero se detenga. De este modo, el bucle interno `while` se ejecuta continuamente hasta que la condición final se cumple.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

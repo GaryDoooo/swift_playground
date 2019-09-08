@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Skapa ett verktyg och ge det ett namn och en emojisymbol. Exempel:\
+`let fruitTool = Tool(name: "Frukt", emojiIcon: "🍒")`\
+eller:\
+`let greetingTool = Tool(name: "Hälsning", emojiIcon: "🙏")`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Ange verktygets `onFingerMoved`-egenskap som det fullständiga namnet på en av händelsehanterarfunktionerna. Exempel:\
+`fruitTool.onFingerMoved = addFruit(touch:)`\
+eller:\
+`greetingTool.onFingerMoved = addGreeting(touch:)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Slutligen lägger du till verktyg i scenen. Exempel:\
+`scene.tools.append(fruitTool)`\
+eller:\
+`scene.tools.append(greetingTool)`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Grattis!
+
+**Utmaning:** Försök att skriva din egen `onFingerMoved`-funktion och lägga till ett nytt verktyg för att anropa den.
+
+[**Nästa sida**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

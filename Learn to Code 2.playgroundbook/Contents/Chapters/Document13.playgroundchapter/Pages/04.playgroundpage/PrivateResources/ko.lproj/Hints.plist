@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>[`if` 구문](glossary://if%20statement)의 조건식을 수정하여 `5`보다 큰 열 또는`4`보다 작은 행의 값을 가진 좌표를 확인하도록 합니다. [&amp;&amp;](glossary://logical%20AND%20operator) 연산자와 [||](glossary://logical%20OR%20operator) 연산자의 차이점을 잊지 마세요.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

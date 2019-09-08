@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Você precisa escrever dois loops. Faça com que o primeiro ([loop externo](glossary://outer%20loop)) seja executado enquanto o personagem não estiver bloqueado. Faça com que o segundo ([loop interno](glossary://inner%20loop)) movimente o personagem para a frente enquanto não estiver sobre uma joia.   O loop externo continuará a executar o loop interno até que o loop externo pare. Dessa maneira o loop `while` interno será executado continuamente até que a condição final seja verdadeira.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

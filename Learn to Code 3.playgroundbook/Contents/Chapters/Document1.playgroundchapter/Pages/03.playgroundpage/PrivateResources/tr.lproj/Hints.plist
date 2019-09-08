@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Koordinatları bulmana yardımcı olması için kâğıda x ve y eksenlerini çiz. (0, 0) merkezde olmak üzere x’in yatay, y’nin düşey eksen olduğunu unutma.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Dört çeyrekte bulunan koordinatların her biri, farklı pozitif veya negatif x, y değerleri kombinasyonuna sahiptir; sağ üst: (+, +), sağ alt: (+, -), sol alt: (-, -) ve sol üst: (-, +).
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### İyi iş!
+
+ Sahneye 10 hatta 30 nesne yerleştirmek zorunda olsaydın kodun nasıl olurdu? Ne kadar çok kodun yinelendiğine dikkat et. Kodun bu şekilde yinelendiğini her gördüğünde, “Daha iyi bir yol olabilir mi?” diye kendine sor.
+ 
+ **Düşün:** Bu iş, dizi kullanılarak daha etkili bir şekilde yapılabilir mi?
+
+ Bir [**sonraki sayfada**](@next) bunu öğren.
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

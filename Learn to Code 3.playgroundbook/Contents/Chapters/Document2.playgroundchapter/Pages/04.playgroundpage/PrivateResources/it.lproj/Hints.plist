@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Se continui a incrementare `index` di `1`, finirà per puntare *oltre* l’ultimo elemento nell’array `animals`. Se questo accade, puoi reimpostare `index` su `0`. Dopo sarà pronto per ricominciare a selezionare ciclicamente gli elementi dell’array.
+
+Dopo aver incrementato `index`, controlla se è uguale a `animals.count`. Se lo è, imposta `index` uguale a `0` in modo che punti al primo elemento dell’array.
+			</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+ `if index == animals.count {`\
+ `   index = 0`\
+ `}`		
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Ben fatto!
+
+Ricorda che l’indice di un array inizia da 0 (il primo elemento) e arriva fino al numero degli elementi meno 1 (l’ultimo elemento). Quindi se l’indice *è uguale* al numero degli elementi, l’indice ha superato la fine dell’array ed è il momento di reimpostarlo su 0.
+
+[**Pagina successiva**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

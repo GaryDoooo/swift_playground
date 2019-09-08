@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Placera in en grafik i varje kvadrant och beräkna koordinaterna (x, y) för dem.\
+Som ett exempel hämtar du positionen för grafiken i den nedre vänstra kvadranten:\
+`let position3 = Point(x: -x, y: -y)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Idé:** Ställ in `rotation` och `scale` för varje grafik med samma slumpmässiga värden:\
+`let rotation = randomDouble(from: 0, to: 180)`\
+`let scale = randomDouble(from: 0.5, to: 2.5)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Idé:** Gör så att varje grafik tonas bort efter en tidsperiod:\
+`graphic.fadeOut(after: 2.0)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Idé:** Flytta varje grafik till position från pekpositionen:\
+`scene.place(graphics[0], at: touch.position)`\
+`graphics[0].move(to: position1, duration: 2.0)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Det här är en **Skapa**-sida som saknar en färdig lösning. Du får använda dig av dina egna kreativa idéer.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

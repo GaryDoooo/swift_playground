@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`things[index]` 및 `colors[index]`를 사용하여 다양한 항목과 색상을 선택해보세요.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let graphic = Graphic(text: things[index])`\
+\
+`graphic.textColor = colors[index]`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 잘했어요!
+
+**Image** 도구를 사용하여 이미지를 놓은 것과 같이 **Text** 도구를 사용하여 코딩 영역에 텍스트를 추가할 수 있습니다. 두 가지 도구는 모두 손가락이 움직일 때마다 `Graphic` 인스턴스를 코딩 영역에 추가합니다.
+
+[**다음 페이지**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

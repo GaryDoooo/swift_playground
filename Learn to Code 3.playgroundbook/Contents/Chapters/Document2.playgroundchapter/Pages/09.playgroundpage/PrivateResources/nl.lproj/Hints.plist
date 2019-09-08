@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Voeg een plaatje aan elk kwadrant toe, waarbij je de (x, y)-coördinaten voor elke plaatje berekent.\
+Zo vraag je bijvoorbeeld de positie van het plaatje in het kwadrant linksonder op:\
+`let position3 = Point(x: -x, y: -y)`
+
+(position = positie, Point = punt)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Idee:** stel de `rotation` en `scale` van elke plaatje in op dezelfde willekeurige waarden:\
+`let rotation = randomDouble(from: 0, to: 180)`\
+`let scale = randomDouble(from: 0.5, to: 2.5)`
+
+(rotation = rotatie, scale = grootte, randomDouble = willekeurig decimaal getal, from = van, to = tot)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Idee:** laat elke plaatje na een bepaalde tijdsperiode geleidelijk verdwijnen:\
+`graphic.fadeOut(after: 2.0)`
+
+(graphic = plaatje, fadeOut = geleidelijk verdwijnen, after = na)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Idee:** verplaats elke plaatje van de plek die je hebt aangeraakt naar de gewenste positie:\
+`scene.place(graphics[0], at: touch.position)`\
+`graphics[0].move(to: position1, duration: 2.0)`
+
+(scene = tafereel, place = plaats, graphics = plaatjes, at = op, touch = aanraking, position = positie, move = verplaats, to = naar, duration = duur)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Dit is een **creativiteitspagina** en er is geen oplossing opgegeven. Je kunt op basis van je eigen creatieve ideeën een oplossing aandragen.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

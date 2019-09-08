@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Blink View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BlinkViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fmJ-hf-Pgi" customClass="SKView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vI4-rV-fGN" customClass="RoundedVisualEffectView">
+                                <rect key="frame" x="16" y="40" width="60" height="44"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="eZL-JW-NKX">
+                                    <rect key="frame" x="0.0" y="0.0" width="60" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uNm-Vt-bWv" customClass="RoundedVisualEffectView">
+                                            <rect key="frame" x="8" y="0.0" width="44" height="44"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vHU-3U-NOd">
+                                                <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOt-Fv-Hlo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="Reset">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="resetTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nNW-ve-1HT"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="UOt-Fv-Hlo" firstAttribute="top" secondItem="vHU-3U-NOd" secondAttribute="top" id="4Ab-vB-5FN"/>
+                                                    <constraint firstItem="UOt-Fv-Hlo" firstAttribute="centerX" secondItem="vHU-3U-NOd" secondAttribute="centerX" id="9HK-q9-DFK"/>
+                                                    <constraint firstAttribute="bottom" secondItem="UOt-Fv-Hlo" secondAttribute="bottom" id="Y7e-q2-h4a"/>
+                                                    <constraint firstAttribute="width" secondItem="UOt-Fv-Hlo" secondAttribute="width" id="s4X-pI-0H4"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="uNm-Vt-bWv" firstAttribute="top" secondItem="eZL-JW-NKX" secondAttribute="top" id="OfY-Os-rZK"/>
+                                        <constraint firstAttribute="trailing" secondItem="uNm-Vt-bWv" secondAttribute="trailing" constant="8" id="i8z-0m-Ezw"/>
+                                        <constraint firstItem="uNm-Vt-bWv" firstAttribute="leading" secondItem="eZL-JW-NKX" secondAttribute="leading" constant="8" id="lHM-86-x01"/>
+                                        <constraint firstAttribute="bottom" secondItem="uNm-Vt-bWv" secondAttribute="bottom" id="s3b-g3-Nyq"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aee-Kd-ODE"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="SZi-Bp-JJu" customClass="RoundedVisualEffectView">
+                                <rect key="frame" x="150" y="40" width="147" height="44"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ziL-cQ-lkk">
+                                    <rect key="frame" x="0.0" y="0.0" width="147" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tGp-dL-ued" customClass="RoundedVisualEffectView">
+                                            <rect key="frame" x="8" y="0.0" width="131" height="44"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="kDj-kI-ELN">
+                                                <rect key="frame" x="0.0" y="0.0" width="131" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKk-Zo-Sdu">
+                                                        <rect key="frame" x="0.0" y="0.0" width="131" height="44"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="Pause Simulation">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="playPauseTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jpl-uS-rx7"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="ZKk-Zo-Sdu" firstAttribute="centerX" secondItem="kDj-kI-ELN" secondAttribute="centerX" id="5Tx-Ux-m6I"/>
+                                                    <constraint firstItem="ZKk-Zo-Sdu" firstAttribute="top" secondItem="kDj-kI-ELN" secondAttribute="top" id="B6D-yJ-9WK"/>
+                                                    <constraint firstAttribute="width" secondItem="ZKk-Zo-Sdu" secondAttribute="width" id="QSi-Sj-WB1"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ZKk-Zo-Sdu" secondAttribute="bottom" id="VJQ-Rw-HZP"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tGp-dL-ued" firstAttribute="top" secondItem="ziL-cQ-lkk" secondAttribute="top" id="27h-cJ-SHf"/>
+                                        <constraint firstItem="tGp-dL-ued" firstAttribute="leading" secondItem="ziL-cQ-lkk" secondAttribute="leading" constant="8" id="Ds7-Qp-tOw"/>
+                                        <constraint firstAttribute="trailing" secondItem="tGp-dL-ued" secondAttribute="trailing" constant="8" id="RZ1-AA-0Hq"/>
+                                        <constraint firstAttribute="bottom" secondItem="tGp-dL-ued" secondAttribute="bottom" id="jJF-wr-8vL"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="qmJ-jq-3pm"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wks-bc-lwY" customClass="RoundedVisualEffectView">
+                                <rect key="frame" x="307" y="40" width="52" height="44"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0DR-MU-ayc">
+                                    <rect key="frame" x="0.0" y="0.0" width="52" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y3R-kE-Zzi" customClass="RoundedVisualEffectView">
+                                            <rect key="frame" x="8" y="0.0" width="36" height="44"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="z0l-wu-FcB">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXc-wd-8xP">
+                                                        <rect key="frame" x="0.0" y="0.0" width="36" height="44"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="Step">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="stepTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mXT-EL-uUf"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="YXc-wd-8xP" secondAttribute="bottom" id="Af6-By-qMf"/>
+                                                    <constraint firstItem="YXc-wd-8xP" firstAttribute="centerX" secondItem="z0l-wu-FcB" secondAttribute="centerX" id="Xz8-aK-M8w"/>
+                                                    <constraint firstItem="YXc-wd-8xP" firstAttribute="top" secondItem="z0l-wu-FcB" secondAttribute="top" id="dtV-te-qn2"/>
+                                                    <constraint firstItem="YXc-wd-8xP" firstAttribute="width" secondItem="z0l-wu-FcB" secondAttribute="width" id="ga6-Jd-IJQ"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="y3R-kE-Zzi" firstAttribute="top" secondItem="0DR-MU-ayc" secondAttribute="top" id="NbJ-S6-ZEE"/>
+                                        <constraint firstAttribute="bottom" secondItem="y3R-kE-Zzi" secondAttribute="bottom" id="Neg-RM-Twt"/>
+                                        <constraint firstItem="y3R-kE-Zzi" firstAttribute="leading" secondItem="0DR-MU-ayc" secondAttribute="leading" constant="8" id="VRj-tk-bzb"/>
+                                        <constraint firstAttribute="trailing" secondItem="y3R-kE-Zzi" secondAttribute="trailing" constant="8" id="gf2-Mz-msB"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="F6K-fv-j6C"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fmJ-hf-Pgi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6nT-fW-0cG"/>
+                            <constraint firstItem="SZi-Bp-JJu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vI4-rV-fGN" secondAttribute="trailing" constant="10" id="9eE-LQ-ipY"/>
+                            <constraint firstItem="fmJ-hf-Pgi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ave-rq-7gU"/>
+                            <constraint firstItem="vI4-rV-fGN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="aZL-jx-tz7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fmJ-hf-Pgi" secondAttribute="bottom" id="ghZ-5M-1L3"/>
+                            <constraint firstItem="SZi-Bp-JJu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" placeholder="YES" id="h9Z-qD-8pr"/>
+                            <constraint firstAttribute="trailing" secondItem="fmJ-hf-Pgi" secondAttribute="trailing" id="hZm-k6-fAH"/>
+                            <constraint firstItem="Wks-bc-lwY" firstAttribute="centerY" secondItem="SZi-Bp-JJu" secondAttribute="centerY" id="hp0-pB-dPk"/>
+                            <constraint firstAttribute="trailing" secondItem="Wks-bc-lwY" secondAttribute="trailing" constant="16" id="knt-L3-SC2"/>
+                            <constraint firstItem="vI4-rV-fGN" firstAttribute="centerY" secondItem="SZi-Bp-JJu" secondAttribute="centerY" id="lCw-SS-Eg9"/>
+                            <constraint firstItem="Wks-bc-lwY" firstAttribute="leading" secondItem="SZi-Bp-JJu" secondAttribute="trailing" constant="10" id="xUg-ZR-ShI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playPauseButton" destination="ZKk-Zo-Sdu" id="yAq-4F-wjd"/>
+                        <outlet property="resetButton" destination="UOt-Fv-Hlo" id="QZ9-hL-8gT"/>
+                        <outlet property="skView" destination="fmJ-hf-Pgi" id="qww-ag-uEF"/>
+                        <outlet property="stepButton" destination="YXc-wd-8xP" id="tdo-ba-QCg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="138.0809595202399"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Je moet twee lussen schrijven. De eerste, de [buitenste lus](glossary://outer%20loop), moet worden uitgevoerd zolang je figuurtje niet wordt geblokkeerd. De tweede, de [binnenste lus](glossary://inner%20loop), moet je figuurtje naar voren verplaatsen zolang er geen edelsteen is bereikt.
+
+De binnenste lus wordt door de buitenste lus uitgevoerd totdat de buitenste lus stopt. Hierdoor wordt de binnenste `while`-lus ononderbroken uitgevoerd totdat aan de eindvoorwaarde is voldaan.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

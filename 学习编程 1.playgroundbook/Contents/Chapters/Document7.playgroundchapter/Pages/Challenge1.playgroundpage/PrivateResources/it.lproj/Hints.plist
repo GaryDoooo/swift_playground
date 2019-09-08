@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Per iniziare, cerca uno schema nel livello. Dopo averlo identificato, pensa a quali regole e istruzioni risolverebbero ogni parte dello schema. Quando hai trovato una soluzione, scrivi il codice corrispondente.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Hai notato che, quando sono presenti delle gemme, il percorso si muove verso destra, mentre quando sono presenti degli interruttori, si muove verso sinistra? Usa questo schema per creare il tuo algoritmo.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

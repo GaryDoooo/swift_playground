@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+將 `index` 設為指向陣列中的隨機項目：\
+`let index = randomInt(from: 0, to: animals.count - 1)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`rotation` 的度數可以是 `0` 到 `360` 之間的任何 `Double` 值。
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Set index to a random value.`\
+`let index = randomInt(from: 0, to: animals.count - 1)`\
+\
+`// Scale and rotate graphic.`\
+`graphic.scale = randomDouble(from: 0.5, to: 2.0)`\
+`graphic.rotation = randomDouble(from: 0.0, to: 360.0)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 太棒了！
+
+試驗看看製作自己的影像陣列，並且使用 `scale` 和 `rotation`。
+
+[**下一頁**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

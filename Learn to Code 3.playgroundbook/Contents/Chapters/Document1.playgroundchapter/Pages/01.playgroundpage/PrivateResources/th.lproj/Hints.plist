@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+อย่าลืมว่าฉากเป็นรูปสี่เหลี่ยมและขยายจาก `Point(x: -500, y: -500)` ที่ด้านซ้ายล่าง ถึง `Point(x: 500, y: 500)` ที่ด้านขวาบน
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ร่างภาพของจักรวาลลงบนกระดาษและกำหนดจุดเริ่มต้น (0, 0) จากนั้นกำหนดจุดที่คุณเห็นว่าเป็นจุดศูนย์กลางของจักรวาลและคำนวณขั้นต้นว่าพิกัดควรจะอยู่ตรงไหน
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+กาแล็กซีอยู่ที่เขตด้านขวาบนของฉาก ดังนั้นพิกัดจะอยู่ที่ (x, y)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### คุณทำได้แล้ว!
+
+เมื่อใดก็ตามที่คุณต้องการวางภาพใหม่ลงในฉาก ก่อนอื่นให้สร้างชื่อแทนชนิดของประเภท `Graphic` แล้วเรียกใช้ `place()` method ของฉากผ่านทางชื่อแทนชนิดของค่า `Graphic` และ `Point`
+
+[**หน้าถัดไป**](@next)
+            </string>
+		</dict>
+	</dict>
+</dict>
+</plist>

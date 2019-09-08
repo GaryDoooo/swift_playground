@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`Block` [유형](glossary://type)의 [인스턴스](glossary://instance)를 여러 개 만들고 퍼즐을 해결하는 데 필요한 위치에 인스턴스를 놓아야 합니다.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

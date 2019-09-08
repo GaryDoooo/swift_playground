@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`touch.previousPlaceDistance` değeri belirli bir değerden küçükse `addImage()` fonksiyonu hiçbir şey yapmadan geri döner. Bu değeri 80’e değiştir: Böylece parmağın hareket ettikçe ⭐️ grafiklerinin arasında boşluk bırakılır.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Anlaşıldı mı?
+
+Daha büyük bir değer kullanırsan `touch.previousPlaceDistance`’ın bu değere ulaşması için parmağını daha uzağa götürmen gerekir ve yıldızlar daha aralıklı yerleştirilir. Birkaç farklı değer dene.
+
+[**Sonraki Sayfa**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

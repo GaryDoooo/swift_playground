@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+다음 위치를 설정하고 `pointIndex`를 증가시키세요.\
+`let position = points[pointIndex]`\
+`pointIndex += 1`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`pointIndex`를 재설정하여 배열 범위를 벗어나지 않도록 하세요.\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Get position.`\
+`let position = points[pointIndex]`\
+`// Increment pointIndex.`\
+`pointIndex += 1`\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`\
+`// Move graphic to position.`\
+`graphic.move(to: position, duration: 1.0)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 축하합니다!
+
+여러 가지 점, 함수, 매개변수로 다양한 패턴을 만들어보세요.
+
+**도전 과제:** 패턴 함수를 통해 반환되는 점은 코딩 영역의 원점을 중심으로 패턴을 그립니다. 각 점에 x, y 오프셋을 추가하면 원하는 곳 어디에나 패턴을 손쉽게 만들 수 있죠. 다양한 위치에 여러 가지 패턴을 한번 만들어보세요.
+
+[**다음 페이지**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

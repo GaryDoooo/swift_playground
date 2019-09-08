@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>นำโค้ดที่มีอยู่มาจากแบบฝึกก่อนหน้า แล้วดูว่าคุณสามารถใช้โค้ดนั้นไขปริศนาที่แตกต่างกันเล็กน้อยนี้ได้หรือไม่ สังเกตให้ดีว้่ว่าคราวนี้คุณต้องใช้การกระทำอื่นเมื่อถูกปิดกั้นทั้งด้านหน้าและด้านขวา แทนที่จะถูกบล็อกเพียงด้านขวาเพียงด้านเดียว</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Om det är svårt att trycka på UFF:erna kan du öka deras omloppsperiod i `addFructoid` så att de rör sig saktare.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+När värdet `scale` i den rörda grafiken hamnar under en viss nivå (exempelvis 0,6) förstörs grafiken med `graphic.moveAndZap(to: blackHole.position)`.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Add code here.`\
+`graphic.scale -= 0.5`\
+`graphic.alpha -= 0.25`\
+`if graphic.scale &lt; 0.6 {`\
+`   graphic.moveAndZap(to: blackHole.position)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Det ser ut som att du har förtjänat ditt UFF-krossarmärke!
+
+**Utmaning:** Försök att göra en del frukter svårare att förstöra. En fruktgrafik skapas med en emoji, så du kan helt enkelt jämföra dess `text`-egenskap så här: `if graphic.text == "🍏"`. Om du minskar värdena för `scale` och `alpha` lite mindre måste du röra frukterna fler gånger innan de förstörs.
+
+På [**nästa sida**](@next) lär du dig att använda en enda knapp till att krossa alla UFF:er samtidigt!
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

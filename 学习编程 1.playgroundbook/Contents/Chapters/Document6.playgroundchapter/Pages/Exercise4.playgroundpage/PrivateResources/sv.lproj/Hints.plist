@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Du måste skriva två loopar. Låt den första – [ytterloopen](glossary://outer%20loop) – köras när figuren inte är blockerad. Låt den andra – [innerloopen](glossary://inner%20loop) – flytta figuren framåt när den inte står på en sten.   Ytterloopen fortsätter att köra innerloopen tills ytterloppan stoppas. På det här sättet körs `while`-innerloopen kontinuerligt ända tills slutvillkoret uppfylls.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Şimdiye kadar öğrendiğin tüm araçları düşün: [fonksiyonlar](glossary://function), [`for` döngüleri](glossary://for%20loop), [`while` döngüleri](glossary://while%20loop), [koşullu kod](glossary://conditional%20code) ve [işleçler](glossary://logical%20operator). Bu bulmacayı çözmek için bu araçları nasıl kullanabilirsin?</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

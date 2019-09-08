@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Vervang het onderdeel 'spring' door een ander onderdeel, zoals het onderdeel 'seed' of het onderdeel 'gear'.
+
+(spring = veer, seed = zaadje, gear = tandwiel)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Geef `item` als [argument](glossary://argument) door aan `setItemA()`. Zo zorg je ervoor dat het onderdeel dat door `setItemA()` wordt gebruikt, afkomstig is uit de array en dat het onderdeel wordt gewijzigd telkens wanneer de lus wordt uitgevoerd.
+
+- callout(Example):
+    ```
+    for item in items {
+        setItemA(item)
+        setItemB(.dirt)
+        switchLightOn(.blue)
+        forgeItems()
+    }
+    ```
+
+(item = onderdeel, setItemA = stel onderdeel A in, items = onderdelen, setItemB = stel onderdeel B in, dirt = aarde, switchLightOn = schakel lampje in, blue = blauw, forgeItems = voeg onderdelen samen)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Wijzig de kleur van het lampje dat is ingeschakeld.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Om nieuwe onderdelen in de lus op te nemen, voeg je ze toe aan de array `items`.
+
+(items = onderdelen)</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

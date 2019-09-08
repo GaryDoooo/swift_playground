@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>ก่อนอื่นให้เพิ่มชุดค่า [Int](glossary://Int) ไปที่อาร์เรย์ `heights` ถ้าคุณต้องการเพิ่มรายการเพิ่มเติมไปที่อาร์เรย์ของคุณอย่างรวดเร็ว ให้ลองแตะที่วงเล็บเหลี่ยมแล้วลากไปที่ด้านขวา</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

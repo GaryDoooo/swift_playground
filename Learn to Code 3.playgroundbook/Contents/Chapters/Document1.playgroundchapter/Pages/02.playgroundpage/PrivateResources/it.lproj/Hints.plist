@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Puoi scegliere un’immagine di sfondo da quelle disponibili o dalla tua libreria fotografica. Puoi persino utilizzare la fotocamera per scattare una foto per lo sfondo!
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Che splendida scena!
+
+Se hai scelto un’immagine con delle parti trasparenti, il colore di sfondo sarà visibile attraverso le trasparenze. Se non è presente un colore di sfondo, vedrai un motivo a scacchi. Puoi impostare il colore di sfondo in questo modo:
+ 
+`scene.backgroundColor = ◼️`
+
+[**Pagina successiva**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Usa la herramienta **Mover** para acercar los gráficos de instrumentos al centro (para que suenen más agudos) o para alejarlos (para que suenen más graves).
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Se proporcionan dos herramientas de instrumentos, pero puedes modificarlas o añadir más. Baja hasta `// Add instrument tools` en el código.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Prueba a deslizar el dedo sobre los gráficos de instrumentos.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+No te limites a los instrumentos. También puedes añadir una herramienta para reproducir efectos de sonido o texto hablado.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Onthoud:** het eerste onderdeel in een array bevindt zich op index 0.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Tip:** wanneer je met [arrays](glossary://array) en [indexen](glossary://index) werkt, kan het handig zijn om met potlood en papier de array te tekenen met de onderdelen van de array en de bijbehorende indexen.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Insert and remove items.`\
+`images.insert(rugbyBall, at: 1)`\
+`images.remove(at: 4)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Super!
+
+Het bijhouden van indexen van arrays kan best lastig zijn! Stel je voor dat je de planeet Biljartbal hebt verwijderd en dat je de planeet Rugbybal wilt invoegen aan het einde van de array, na de planeet Basketbal. Welke index zou je gebruiken voor het invoegen van de planeet Rugbybal?
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

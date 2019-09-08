@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ **잊지 마세요:** 이벤트 핸들러 함수에 속성을 지정할 때는 [전체 함수 이름](glossary://full%20function%20name)을 사용해야 합니다.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

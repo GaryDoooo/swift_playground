@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Sahnenin kare olduğunu ve sol altta `Point(x: -500, y: -500)` noktasından sağ üstte `Point(x: 500, y: 500)` uzandığını unutma.
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Bir kâğıda evreni çiz ve orijini (0, 0) ile işaretle. Sonra, galaksinin merkezi olarak düşündüğün yeri işaretle ve koordinatlarını kabaca hesapla.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Galaksi, sahnenin sağ üst çeyreğindedir, bu yüzden koordinatları (x, y) şeklindedir.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Başardın!
+
+Sahneye her yeni grafik eklemek istediğinde önce `Graphic` tipinde bir örnek yarat, sonra `Graphic` örneği ile bir `Point` değeri geçirerek sahnenin `place()` metodunu çağır.
+
+[**Sonraki Sayfa**](@next)
+            </string>
+		</dict>
+	</dict>
+</dict>
+</plist>

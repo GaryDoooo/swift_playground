@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Denk aan alle vaardigheden die je tot nu toe hebt geleerd: [functies](glossary://function), [`for`-lussen](glossary://for%20loop), [`while`-lussen](glossary://while%20loop), [voorwaardelijke code](glossary://conditional%20code) en [operatoren](glossary://logical%20operator). Hoe kun je deze vaardigheden gebruiken om dit raadsel op te lossen?</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

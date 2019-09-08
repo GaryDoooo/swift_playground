@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Vraag een willekeurige noot op met `randomInt(from: 0, to: 23)`.
+
+(randomInt = willekeurig geheel getal, from = van, to = tot)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Als een noot te luid klinkt, kun je de optionele parameter `volume` toevoegen:\
+`playInstrument(.piano, note: 14, volume: 40)`
+
+(playInstrument = bespeel instrument, note = noot)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let note = randomInt(from: 0, to: 15)`\
+`if graphic.text == "🍐" {`\
+`   playInstrument(.piano, note: note)`\
+`}`\
+`if graphic.text == "🍋" {`\
+`   playInstrument(.electricGuitar, note: note)`\
+`}`
+`if graphic.text == "🍊" {`\
+`   playInstrument(.cosmicDrums, note: note)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Goed gedaan! Je weet nu hoe je noten afspeelt.
+
+Experimenteer voordat je verder gaat met verschillende instrumenten en noten.
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

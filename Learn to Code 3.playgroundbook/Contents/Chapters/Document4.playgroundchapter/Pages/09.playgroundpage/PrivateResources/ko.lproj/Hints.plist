@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+특정 과일 종류에 대한 코드를 작성하세요.\
+`if graphic.text == "🍐"{`\
+`   // 작업 수행하기`\
+`}`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`if graphic.text == "🍐" {`\
+`   playSound(.pop)`\
+`}`\
+`if graphic.text == "🍊" {`\
+`   playSound(.tennis)`\
+`}`\
+`if graphic.text == "🍋" {`\
+`   playSound(.snare)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 축하합니다!
+
+동물과 같이 다른 이모티콘 세트를 사용하거나 다른 사운드를 시도해보는 건 어떨까요?
+
+[**다음 페이지**](@next)
+  	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array/>
+	<key>solution</key>
+	<string>
+`for graphic in graphics {`\
+`   squishGraphic(graphic: graphic)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 厲害極了！
+
+場景能包含一個你可以命名的按鈕，你可以為它編寫自己的「按鈕點按」事件處理器函數。有了這個按鈕，你就可以執行多種有用的工作！
+
+[**下一頁**](@next)
+  	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

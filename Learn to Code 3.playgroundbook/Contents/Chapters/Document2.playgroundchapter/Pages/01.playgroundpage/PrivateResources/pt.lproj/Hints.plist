@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Toque na imagem usada para criar o gráfico e escolha uma imagem diferente. Experimente o sapo, um alienígena ou até mesmo um monstro simpático 👾.
+	</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Você é uma 🌟?
+
+Em vez de arrastar o dedo, experimente tocar na cena em lugares diferentes. Note que um novo gráfico é adicionado a cada toque. Isso ocorre porque um toque causa um único evento de toque e `addImage()` é chamado apenas uma vez.
+
+[**Página Seguinte**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

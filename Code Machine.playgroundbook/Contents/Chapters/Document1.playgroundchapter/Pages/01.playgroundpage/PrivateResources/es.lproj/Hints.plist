@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Usa la máquina para [forjar](glossary://forge) nuevos elementos. Lo único que tienes que hacer es definir tus entradas con `setItemA()` y `setItemB()`, y usar `forgeItems()` para combinarlos.
+- callout(Ejemplo):
+    ```
+    setItemA(.metal)
+    setItemB(.dirt)
+    forgeItems()
+    ```</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>La máquina necesita unos ojos nuevos. ¿Podrías echarle una mano? Intenta combinar ADN con otro elemento y mira a ver qué crea la máquina.</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Quizá también haya que ponerle algo de metal a esos ojos para la máquina.</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

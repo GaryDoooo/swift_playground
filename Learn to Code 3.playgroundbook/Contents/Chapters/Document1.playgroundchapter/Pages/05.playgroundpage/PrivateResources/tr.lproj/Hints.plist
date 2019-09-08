@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Unutma:** Dizideki ilk öğenin indeksi 0’dır.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**İpucu:** [Diziler](glossary://array) ve [indeksler](glossary://index) ile çalışırken bir kalem kâğıt alıp dizideki öğeleri indeksleriyle beraber belirterek bir taslak oluşturmak yardımcı olabilir.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Insert and remove items.`\
+`images.insert(rugbyBall, at: 1)`\
+`images.remove(at: 4)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Süper!
+
+Dizi indeksi takibi zor olabilir! Bilardo Topu gezegenini sildiğini ve daha sonra Ragbi Topu gezegenini dizi sonuna, Basket Topu gezegeninin sonrasına eklemek istediğini varsayalım. Ragbi Topu gezegenini hangi indekse eklersin?
+
+[**Sonraki Sayfa**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

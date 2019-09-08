@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Börja med att leta efter ett mönster i pusslet. När du hittar ett mönster tänker du igenom vilka regler och anvisningar som löser varje del av mönstret. Skriv koden när du vet hur du ska göra.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Lägg märke till att vägen flyttas åt höger när det finns stenar. När det finns reglage flyttas vägen åt vänster. Använd det här mönstret till att skapa din algoritm.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

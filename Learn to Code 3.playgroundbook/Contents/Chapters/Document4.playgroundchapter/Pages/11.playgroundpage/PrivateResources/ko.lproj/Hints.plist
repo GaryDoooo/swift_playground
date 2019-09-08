@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**움직이기** 도구를 사용하여 악기 그래픽을 원점 근처(음이 높아짐)로 움직이거나 원점에서 멀리(음이 낮아짐) 떨어뜨려 보세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+두 개의 악기 도구가 있지만, 악기를 변경하거나 새로운 악기를 추가할 수도 있습니다. 코드의 `// 악기 도구 추가하기` 주석 아래를 살펴보세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+악기 그래픽 위로 손가락을 밀어보세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+악기 말고 다른 도구를 사용해보세요. 사운드 효과를 재생하는 도구나 텍스트를 소리 내어 말하는 도구도 좋습니다.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

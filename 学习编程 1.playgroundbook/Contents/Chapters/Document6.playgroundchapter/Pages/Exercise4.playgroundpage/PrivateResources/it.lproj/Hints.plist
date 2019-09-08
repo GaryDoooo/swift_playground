@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Devi scrivere due cicli. Esegui il primo, il [ciclo esterno](glossary://outer%20loop), mentre il personaggio non è bloccato e fai in modo che il secondo, il [ciclo interno](glossary://inner%20loop), faccia avanzare il personaggio finché non raggiunge una gemma.   Il ciclo esterno continuerà a eseguire quello interno finché quello esterno non si interromperà. In questo modo, il ciclo interno `while` rimane in esecuzione finché non viene soddisfatta la condizione finale.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

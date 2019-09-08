@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Belirli bir meyve türü için şunun gibi bir kod yaz:\
+`if graphic.text == "🍐"{`\
+`   // Bir şey yap.`\
+`}`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`if graphic.text == "🍐" {`\
+`   playSound(.pop)`\
+`}`\
+`if graphic.text == "🍊" {`\
+`   playSound(.tennis)`\
+`}`\
+`if graphic.text == "🍋" {`\
+`   playSound(.snare)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Tebrikler!
+
+Neden farklı bir emoji kümesi (hayvanlar belki?) ve farklı sesler denemiyorsun?!
+
+[**Sonraki Sayfa**](@next)
+  	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Si sigues incrementando `index` —índice— en `1`, acabará por *pasar* el último elemento del vector `animals` —animales—. Si esto ocurre, puedes volver a establecer `index` en `0`, con lo que podrá empezar a recorrer el vector de nuevo.
+
+Después de incrementar `index`, comprueba si es igual a `animals.count`. Si lo es, establece `index` en `0` para que vuelva a señalar al primer elemento del vector.
+			</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+ `if index == animals.count {`\
+ `   index = 0`\
+ `}`		
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### ¡Así se hace!
+
+Recuerda que el índice de un vector empieza en 0 —el primer elemento— y va incrementándose hasta llegar al valor del contador del vector menos 1 —el último elemento—. Por lo tanto, si el índice es *igual* al contador, quiere decir que ha pasado el final del vector, por lo que será hora de volver a definir el índice en 0.
+
+[**Página siguiente∏**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

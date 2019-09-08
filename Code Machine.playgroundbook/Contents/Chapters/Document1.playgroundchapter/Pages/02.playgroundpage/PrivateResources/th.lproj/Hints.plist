@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>[ส่งผ่าน](glossary://pass)ในสปริงไปที่[ฟังก์ชั่น](glossary://function) `setItemA()` เพื่อใช้เป็นการป้อนข้อมูลไปที่เครื่องจักร
+- callout(Example):
+    ```
+    setItemA(.spring)
+    setItemB(.metal)
+    forgeItems()
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>ลองรวบสปริงเข้ากับรายการอื่นจนกว่าคุณจะได้[ผลิตภัณฑ์ขั้นสุดท้าย](glossary://final%20product)จากเครื่องจักร</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>คุณสามารถรวมสปริงเข้ากับของนุ่มๆ เพื่อสร้างสิ่งต่างๆ ได้</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

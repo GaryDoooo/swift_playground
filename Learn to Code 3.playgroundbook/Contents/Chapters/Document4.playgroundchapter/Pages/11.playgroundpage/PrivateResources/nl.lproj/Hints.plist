@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Verplaats de plaatjes van de instrumenten met de tool **Verplaats** dichter naar het midden (voor een hogere toonhoogte) of verder van het midden af (voor een lagere toonhoogte).
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Er staan al twee instrumenttools voor je klaar, maar je kunt deze wijzigen of meer tools toevoegen. Scrol omlaag naar `// Add instrument tools` in de code.
+
+(Add instrument tools = voeg instrumenttools toe)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Beweeg je vinger over de plaatjes van de instrumenten.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Beperk jezelf niet tot instrumenten. Je kunt ook een tool toevoegen die geluidseffecten afspeelt of tekst voorleest.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

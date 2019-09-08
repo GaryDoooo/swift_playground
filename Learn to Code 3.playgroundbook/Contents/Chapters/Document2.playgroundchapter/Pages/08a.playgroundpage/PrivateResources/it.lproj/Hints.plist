@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Usa `things[index]` e `colors[index]` per ottenere l’oggetto e il colore.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let graphic = Graphic(text: things[index])`\
+\
+`graphic.textColor = colors[index]`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Ben fatto!
+
+Puoi usare lo strumento **Testo** per posizionare delle scritte, proprio come utilizzi lo strumento **Immagine** per posizionare delle immagini. Entrambi gli strumenti posizionano istanze `Graphic` sulla scena seguendo lo spostamento del tuo dito.
+
+[**Pagina successiva**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

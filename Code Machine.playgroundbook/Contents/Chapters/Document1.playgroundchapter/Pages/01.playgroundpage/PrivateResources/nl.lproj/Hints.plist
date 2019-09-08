@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Gebruik de machine om nieuwe onderdelen te maken door onderdelen [samen te voegen](glossary://forge)! Stel eerst de invoer in met `setItemA()` en `setItemB()` en gebruik vervolgens `forgeItems()` om de onderdelen te combineren.
+- callout(Voorbeeld):
+    ```
+    setItemA(.metal)
+    setItemB(.dirt)
+    forgeItems()
+    ```
+
+(setItemA = stel onderdeel A in, setItemB = stel onderdeel B in, forgeItems = voeg onderdelen samen, metal = metaal, dirt = aarde)</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>De machine heeft nieuwe ogen nodig. Kun jij daarbij helpen? Probeer het onderdeel 'DNA' met een ander onderdeel te combineren en kijk wat er door de machine wordt gemaakt.</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Wellicht heeft de machine ook het onderdeel 'metal' nodig voor de ogen.
+
+(metal = metaal)</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

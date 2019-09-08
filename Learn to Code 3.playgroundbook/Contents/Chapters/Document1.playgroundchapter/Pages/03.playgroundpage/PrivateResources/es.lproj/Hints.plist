@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Dibuja los ejes “x” e “y” en papel para ayudarte a calcular las coordenadas. Recuerda que “x” es el eje horizontal e “y” el vertical, mientras que las coordenadas del centro son (0, 0).
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Las coordenadas de los cuatro cuadrantes tendrán una combinación distinta de valores “x” e “y” positivos o negativos —superior derecho: (+, +), inferior derecho: (+, -), inferior izquierdo: (-, -) y superior izquierdo: (-, +)—.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### ¡Buen trabajo!
+
+ ¿Cómo sería el código si tuvieras que colocar 10 objetos en la escena? ¡O incluso 30! Fíjate en la cantidad de código que se repite. Siempre que veas que el código se repite así, pregúntate: “¿Se puede hacer de otra manera mejor?”.
+ 
+ **Piensa:** ¿Hay una manera más eficaz de hacer lo mismo con un vector?
+
+ Descúbrelo en la [**página siguiente**](@next).
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

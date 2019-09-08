@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>머신을 사용하여 새로운 아이템을 [조합](glossary://forge)해보세요! 간단하답니다. `setItemA()` 및 `setItemB()`를 입력으로 지정한 다음 `forgeItems()`를 사용하여 그 두 개를 조합하기만 하면 됩니다.
+- callout(예제):
+    ```
+    setItemA(.metal)
+    setItemB(.dirt)
+    forgeItems()
+    ```</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>머신에 새로운 눈알이 필요합니다. 도와줄 수 있죠? DNA와 다른 아이템을 조합하면 머신이 무엇을 만들어내는지 한번 보세요.</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>참, 눈알에 metal(금속)도 좀 필요할지 모르겠네요.</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

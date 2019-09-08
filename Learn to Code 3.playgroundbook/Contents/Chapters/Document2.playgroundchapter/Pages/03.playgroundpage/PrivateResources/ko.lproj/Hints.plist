@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+그래픽을 움직이려면 **움직이기** 도구를 선택하고 손가락을 사용하여 그래픽을 끌어놓으세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+그래픽을 삭제하려면 **지우기** 도구를 선택하고 그래픽을 탭하세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+이 페이지는 **실험** 페이지이므로 해결 방법이 제공되지 않습니다. 자유롭게 실험을 펼치고 나만의 해결 방법을 찾아보세요.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

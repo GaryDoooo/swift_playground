@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Müzik aleti grafiklerini merkeze yaklaştırmak (daha tiz ses) veya uzaklaştırmak (daha bas ses) için **Taşıma** aracını kullan.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Sana iki müzik aleti aracı verilmiştir ama bunları değiştirebilir veya başkalarını ekleyebilirsin. Kodda `// Müzik aleti araçları ekleme` bölümüne kaydır.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Parmağını müzik aleti grafiklerinin üzerinde kaydırmayı dene.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Kendini müzik aletleriyle sınırlama; ses efektleri çalacak veya metin okuyacak bir araç da ekleyebilirsin.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Kom ihåg att läsa kodkommentarer för att förstå vad varje avsnitt gör. Det kan till och med hjälpa om du leker lite med koden. Ändra något, kör koden och se vad som är annorlunda. Upprepa den här processen för att upptäcka alla platser där du kan personanpassa koden.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

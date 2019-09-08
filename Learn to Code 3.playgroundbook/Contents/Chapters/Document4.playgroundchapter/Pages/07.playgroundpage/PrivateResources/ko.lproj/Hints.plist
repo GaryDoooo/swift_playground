@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+UFF가 너무 빨리 움직여 탭하기가 어렵다면 `addFructoid`의 궤도에 걸리는 시간을 늘려 과일들이 느리게 움직이도록 만들어보세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+터치된 그래픽의 `scale` 값이 특정 수준(예: 0.6) 미만으로 낮아지면 `graphic.moveAndZap(to: blackHole.position)`을 사용하여 그래픽을 제거하세요.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Add code here.`\
+`graphic.scale -= 0.5`\
+`graphic.alpha -= 0.25`\
+`if graphic.scale &lt; 0.6 {`\
+`   graphic.moveAndZap(to: blackHole.position)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### UFF 없애기 고수가 되었어요!
+
+**도전 과제:** 특정한 과일을 강력하게 만들어보세요. UFF 그래픽은 이모티콘으로 만들어졌기 때문에 `text` 속성을 다음과 같이 비교하면 된답니다. `if graphic.text == "🍏"`. 그런 다음, `scale` 및 `alpha` 값이 줄어드는 수를 낮춰보세요. 해당 과일을 없애려면 더 많은 터치가 필요합니다.
+
+[**다음 페이지**](@next)에서는 버튼 하나로 UFF를 동시에 없애는 방법을 알아볼까요?
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

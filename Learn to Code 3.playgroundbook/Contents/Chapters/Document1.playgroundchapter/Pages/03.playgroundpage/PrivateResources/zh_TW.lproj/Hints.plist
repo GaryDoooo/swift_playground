@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+在紙上描繪出 x 軸和 y 軸能幫助你算出座標。記住 x 是橫軸，而 y 是縱軸，中心是 (0, 0)。
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+四個象限中的座標都是由不同的 x, y 的正負值組成，即右上：(+, +)、右下：(+, -)、左下：(-, -) 和左上 : (-, +)。
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 做得好！
+
+ 如果你在場景中放置了 10 個甚至是 30 個物件時，程式碼會變得怎樣呢？！注意重複了多少程式碼。任何時候，如果你看到程式碼像這樣發生重複，就要問自己「是不是有更好的方法呢？」
+ 
+ **思考：** 是不是使用陣列能更有效率地執行這項工作呢？
+
+ 在[**下一頁**](@next)找出答案。
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

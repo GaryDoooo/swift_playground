@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Primeiro, procure um padrão no puzzle. Quando encontrar um padrão, pense quais regras e instruções vão resolver cada parte do padrão. Quando descobrir uma abordagem, escreva o seu código.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Observe que sempre onde há uma joia, o caminho vira à direita. E sempre onde há um controle, o caminho vira à esquerda. Use esse padrão para criar o algoritmo.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

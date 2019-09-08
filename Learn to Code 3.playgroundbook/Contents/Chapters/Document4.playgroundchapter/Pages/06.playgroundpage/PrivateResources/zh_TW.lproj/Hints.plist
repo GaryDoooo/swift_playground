@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+若你將所觸碰圖形的 `alpha` 值設為例如 0.25，則圖形將幾近透明。
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+搭配 `&lt;` 運算子來使用 `if` 語句，以檢查 `graphic.alpha` 是否小於 1。
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Modify alpha.`\
+`if graphic.alpha &lt; 1.0 {`\
+`   graphic.alpha = 1.0`\
+`} else {`\
+`   graphic.alpha = 0.25`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 做得好！
+
+在[**下一頁**](@next)中，你將體驗到壓碎圖形的樂趣！
+			</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

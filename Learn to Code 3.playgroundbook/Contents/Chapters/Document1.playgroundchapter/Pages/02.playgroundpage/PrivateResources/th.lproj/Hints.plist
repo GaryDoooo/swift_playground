@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+คุณสามารถเลือกภาพพื้นหลังจากภาพที่มีหรือจากคลังรูปภาพของคุณ คุณสามารถใช้กล้องเพื่อถ่ายรูปพื้นหลังได้เช่นกัน!
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### ช่างเป็นฉากที่งดงามเหลือเกิน!
+
+ถ้าคุณเลือกภาพที่มีส่วนที่โปร่งใสหรือมองผ่านได้ สีพื้นหลังจะแสดงทะลุผ่านส่วนที่โปร่งใสของภาพนั้น ถ้าไม่มีสีพื้นหลัง คุณจะเห็นเป็นลายตารางหมากรุก คุณสามารถตั้งค่าสีพื้นหลังเช่นนี้ได้:
+ 
+`scene.backgroundColor = ◼️`
+
+[**หน้าถัดไป**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

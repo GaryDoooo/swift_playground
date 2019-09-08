@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>雖然這一關與你見過的其他關卡有些不同，但仍可使用右手規則來通關。始終沿著迷宮的右側牆壁走，你的角色最後就能到達寶石處。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

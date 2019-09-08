@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Recuerda:** El primer elemento de un vector se encuentra en el índice 0.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Truco:** Al trabajar con [vectores](glossary://array) e [índices](glossary://index), puede ser útil hacer un borrador del vector en papel con todos sus elementos e índices.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Insert and remove items.`\
+`images.insert(rugbyBall, at: 1)`\
+`images.remove(at: 4)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### ¡Estupendo!
+
+¡A veces llevar el control de los índices de un vector puede ser complicado! Imagina que has eliminado el planeta Bola de Billar y luego quieres insertar el planeta Balón de Rugby al final del vector, después del planeta Pelota de Baloncesto. ¿En qué indice insertarías el planeta Balón de Rugby?
+
+[**Página siguiente**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Her çeyreğe, (x, y) koordinatlarını hesaplayarak bir grafik yerleştir.\
+Örnek olarak sol alt çeyrekteki grafiğin konumunu al:\
+`let position3 = Point(x: -x, y: -y)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Fikir:** Her grafiğin `rotation` ve `scale` parametresini aynı rasgele değere ayarla:\
+`let rotation = randomDouble(from: 0, to: 180)`\
+`let scale = randomDouble(from: 0.5, to: 2.5)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Fikir:** Her grafiği belirli bir süre sonunda soluklaştır:\
+`graphic.fadeOut(after: 2.0)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Fikir:** Her grafiği dokunma konumundan başka bir konuma taşı:\
+`scene.place(graphics[0], at: touch.position)`\
+`graphics[0].move(to: position1, duration: 2.0)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Bu bir **Yarat** sayfası ve bir çözüm sunulmuyor. Kendi yaratıcı fikirlerini bulmakta özgürsün.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

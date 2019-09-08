@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Copie o código do exercício anterior e veja se você consegue fazer com que ele funcione nesse puzzle, que é um pouquinho diferente. Observe que agora você terá que usar uma ação diferente quando estiver bloqueado na frente e à direita, em vez de bloqueado somente à direita.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

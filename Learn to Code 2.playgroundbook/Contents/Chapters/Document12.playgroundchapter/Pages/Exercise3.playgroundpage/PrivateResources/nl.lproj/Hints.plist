@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Je kunt de volgende code gebruiken om een [instantie](glossary://instance) van het type `Stair` te maken en deze tegelijkertijd toe te voegen: `world.place(Stair(), facing: east, atColumn: 3, row: 3)`.
+
+(Stair = trap, world = wereld, place = plaats, facing = gericht naar het, east = oosten, atColumn = in kolom, row = rij)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

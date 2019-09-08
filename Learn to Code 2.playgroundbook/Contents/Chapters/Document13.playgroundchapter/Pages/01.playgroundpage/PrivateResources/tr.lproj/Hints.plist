@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`for`-`in` döngünde [değişkene](glossary://variable) ad verirken değişkeni küçük harfle başlatıp [camelCase](glossary://camelCase) notasyonunu (tüm sözcükler bitişik ve ilk sözcük dışında diğerlerinin baş harfi büyük) kullanmayı unutma. Örneğin `column`, `currentColumn` veya `eachColumn` değişken adı olarak kullanılabilecek seçenekler. `Column`, büyük harfle başladığı için kullanılamaz.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

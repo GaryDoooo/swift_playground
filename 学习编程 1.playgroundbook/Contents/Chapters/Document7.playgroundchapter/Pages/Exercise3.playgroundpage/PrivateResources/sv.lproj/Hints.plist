@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Trots att det här pusslet ser annorlunda ut jämfört med andra som du har sett kan du fortfarande lösa det med högerhandsregeln. Följ alltid den högra väggen i labyrinten så når figuren stenen till slut.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

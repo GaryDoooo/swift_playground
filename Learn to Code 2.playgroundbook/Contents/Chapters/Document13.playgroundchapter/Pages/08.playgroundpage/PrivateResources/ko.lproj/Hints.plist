@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>먼저 [Int](glossary://Int) 값을 `heights` 배열에 추가합니다. 배열에 더 많은 항목을 빠르게 추가하려면 대괄호를 탭하고 오른쪽으로 드래그하세요.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

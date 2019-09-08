@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Tik op de afbeelding die is gebruikt om het plaatje aan te maken en kies een andere afbeelding. Probeer de kikker, een alien of zelfs een vriendelijk monster 👾.
+	</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Je bent een 🌟?
+
+In plaats van te slepen met je vinger kun je ook op verschillende plaatsen in het tafereel tikken. Zoals je ziet, wordt er steeds wanneer je tikt een nieuw plaatje toegevoegd. Dit is omdat elke tik één aanraakevent veroorzaakt en `addImage()` slechts eenmaal wordt aangeroepen.
+
+(addImage = voeg afbeelding toe)
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

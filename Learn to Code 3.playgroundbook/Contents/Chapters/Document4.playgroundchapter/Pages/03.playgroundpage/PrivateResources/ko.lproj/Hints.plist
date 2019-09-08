@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+다음과 같이 도구를 생성하고 도구의 이름과 이모티콘을 지정하세요.\
+`let fruitTool = Tool(name: "Fruit", emojiIcon: "🍒")`\
+또는\
+`let greetingTool = Tool(name: "Greeting", emojiIcon: "🙏")`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+다음과 같이 `onFingerMoved` 속성을 이벤트 핸들러 함수의 전체 이름에 지정합니다.\
+`fruitTool.onFingerMoved = addFruit(touch:)`\
+또는\
+`greetingTool.onFingerMoved = addGreeting(touch:)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+마지막으로 도구를 코딩 영역에 추가합니다.\
+`scene.tools.append(fruitTool)`\
+또는\
+`scene.tools.append(greetingTool)`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 축하합니다!
+
+**도전 과제:** 자신만의 `onFingerMoved` 함수를 만들고 해당 함수를 호출하는 새로운 도구를 추가해보세요.
+
+[**다음 페이지**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

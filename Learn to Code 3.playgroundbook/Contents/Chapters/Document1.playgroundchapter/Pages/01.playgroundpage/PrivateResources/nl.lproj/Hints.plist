@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Onthoud dat het tafereel vierkant is en dat het zich uitstrekt van `Point(x: -500, y: -500)` linksonder naar `Point(x: 500, y: 500)` rechtsboven.
+
+(Point = punt)
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Maak een schets van het universum op een vel papier en markeer de oorsprong (0, 0). Markeer vervolgens de positie waar je denkt dat het middelpunt van het sterrenstelsel is en bepaal ruwweg wat de coördinaten ervan zijn.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Het sterrenstelsel bevindt zich in het kwadrant rechtsboven in het tafereel, dus de coördinaten zijn iets als (x, y).
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Je hebt het door!
+
+Telkens wanneer je een nieuw plaatje aan het tafereel wilt toevoegen, maak je eerst een instantie van het type `Graphic` aan, waarna je de methode `place()` van het tafereel aanroept, waaraan je de instantie van `Graphic` en een `Point`-waarde doorgeeft.
+
+(Graphic = plaatje, place = plaats, Point = punt)
+
+[**Volgende pagina**](@next)
+            </string>
+		</dict>
+	</dict>
+</dict>
+</plist>

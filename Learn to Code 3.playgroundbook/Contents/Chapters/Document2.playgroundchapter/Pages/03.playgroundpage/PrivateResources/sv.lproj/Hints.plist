@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Flytta en grafik genom att välja verktyget **Flytta** och dra grafiken med ett finger.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Ta bort en grafik genom att välja verktyget **Radera** och trycka på grafiken.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Det här är en **Experimentera**-sida som saknar en färdig lösning. Du får helt enkelt ha kul, experimentera och komma fram till en egen lösning.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

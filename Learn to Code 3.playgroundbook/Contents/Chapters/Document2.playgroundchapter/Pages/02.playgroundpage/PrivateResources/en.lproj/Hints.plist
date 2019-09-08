@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+The `addImage()` function returns without doing anything if `touch.previousPlaceDistance` is less than a certain value. Change this value to 80: This will space out the ⭐️ graphics as your finger moves.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Got it?
+
+If you use a larger value, your finger will have to move farther before `touch.previousPlaceDistance` reaches that value, and the stars will be placed farther apart. Try a few different values.
+
+[**Next Page**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

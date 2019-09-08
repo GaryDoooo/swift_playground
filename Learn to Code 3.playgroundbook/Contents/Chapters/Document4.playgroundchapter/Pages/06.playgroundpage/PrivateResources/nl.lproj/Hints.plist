@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Als je de `alpha`-waarde van het aangeraakte plaatje bijvoorbeeld op 0.25 instelt, wordt het plaatje bijna doorzichtig.
+
+(alpha = alfa)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Gebruik een `if`-instructie met de operator `&lt;` om te controleren of `graphic.alpha` kleiner is dan 1.
+
+(graphic = plaatje, alpha = alfa)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Modify alpha.`\
+`if graphic.alpha &lt; 1.0 {`\
+`   graphic.alpha = 1.0`\
+`} else {`\
+`   graphic.alpha = 0.25`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Goed gedaan!
+
+Op de [**volgende pagina**](@next) kun je iets leuks gaan doen: plaatjes vernietigen!</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

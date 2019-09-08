@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`randomInt(from: 0, to: 23)` kullanarak rasgele bir nota seç.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Notanın sesi çok yüksekse isteğe bağlı bir `volume` parametresi ekleyebilirsin:\
+`playInstrument(.piano, note: 14, volume: 40)`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let note = randomInt(from: 0, to: 15)`\
+`if graphic.text == "🍐" {`\
+`   playInstrument(.piano, note: note)`\
+`}`\
+`if graphic.text == "🍋" {`\
+`   playInstrument(.electricGuitar, note: note)`\
+`}`
+`if graphic.text == "🍊" {`\
+`   playInstrument(.cosmicDrums, note: note)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Bravo! Nota çalmaya alışmaya başladın.
+
+İlerlemeden önce, farklı müzik aletleri ve notalarla denemeler yaparak biraz eğlen.
+
+[**Sonraki Sayfa**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

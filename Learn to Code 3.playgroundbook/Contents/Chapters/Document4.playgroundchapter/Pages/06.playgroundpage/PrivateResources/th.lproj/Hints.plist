@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ถ้าคุณตั้งค่า `alpha` ของภาพที่ถูกสัมผัส เช่นตั้งเป็น 0.25 ภาพจะดูโปร่งใสเกือบทั้งหมด
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ใช้ชุดคำสั่ง `if` กับตัวดำเนินการ `&lt;` เพื่อดูว่า `graphic.alpha` น้อยกว่า 1 หรือไม่
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Modify alpha.`\
+`if graphic.alpha &lt; 1.0 {`\
+`   graphic.alpha = 1.0`\
+`} else {`\
+`   graphic.alpha = 0.25`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### ทำดีแล้ว!!
+
+ใน [**หน้าถัดไป**](@next) คุณจะได้เห็นภาพอันแสนสนุก!
+			</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

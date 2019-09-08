@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Bir ad ve emoji simgesi vererek bir araç yarat. Örnek:\
+`let fruitTool = Tool(name: "Meyve", emojiIcon: "🍒")`\
+veya:\
+`let greetingTool = Tool(name: "Selam", emojiIcon: "🙏")`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Aracın `onFingerMoved` özelliğini olay işleyici fonksiyonlarının tam adına ayarla. Örnek:\
+`fruitTool.onFingerMoved = addFruit(touch:)`\
+veya:\
+`greetingTool.onFingerMoved = addGreeting(touch:)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Son olarak, aracı sahneye ekle. Örnek:\
+`scene.tools.append(fruitTool)`\
+veya:\
+`scene.tools.append(greetingTool)`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Tebrikler!
+
+**Meydan Okuma:** Kendi `onFingerMoved` fonksiyonunu yaz ve bunu çağırmak için yeni bir araç ekle.
+
+[**Sonraki Sayfa**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

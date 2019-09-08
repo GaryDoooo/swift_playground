@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**อย่าลืมว่า:** รายการแรกในอาร์เรย์จะอยู่ที่ดัชนี 0
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**เคล็ดลับ:** เมื่อทำงานกับ [อาร์เรย์](glossary://array) และ [ดัชนี](glossary://index) นั้นจะเป็นประโยชน์อย่างมากถ้านำดินสอและกระดาษมาวาดอาร์เรย์พร้อมรายการและดัชนีไว้ก่อน
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Insert and remove items.`\
+`images.insert(rugbyBall, at: 1)`\
+`images.remove(at: 4)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### สุดยอด!
+
+การไล่ดูดัชนีในอาร์เรย์อาจดูเป็นเรื่องยาก! ถ้าคุณลบดาว Billiardball แล้วต้องการใส่ดาว Rugbyball ที่ปลายของอาร์เรย์แทน โดยอยู่หลังดาว Basketball ดัชนีใดที่คุณจะใส่ดาว Rugbyball ไว้
+
+[**หน้าถัดไป**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

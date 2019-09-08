@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>먼저 퍼즐에 있는 패턴을 찾아보세요. 패턴을 찾으면 해당 패턴의 각 부분을 해결할 수 있는 규칙과 지침에 대해 생각해 보세요. 찾아낸 해결 방법에 따라 코드를 작성하면 됩니다.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>보석이 있는 곳에는 길이 오른쪽으로 꺾입니다. 스위치가 있는 곳에는 길이 왼쪽으로 꺾이죠. 이 패턴을 활용하여 알고리즘을 만들어보세요.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

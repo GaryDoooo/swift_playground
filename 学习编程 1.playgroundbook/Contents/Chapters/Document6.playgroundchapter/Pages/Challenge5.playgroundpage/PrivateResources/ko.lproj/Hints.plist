@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>닫혀있는 스위치를 모두 열면서 보석으로 가는 길을 찾으세요. 이 목표를 달성하기 위해 필요한 기술이 무엇인지 파악해야 합니다.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

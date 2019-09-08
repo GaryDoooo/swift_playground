@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+De functie `addImage()` doet niets als `touch.previousPlaceDistance` kleiner is dan een bepaalde waarde. Wijzig deze waarde in 80: hiermee worden de ⭐️-afbeeldingen met een gepaste onderlinge afstand op het scherm geplaatst terwijl je vinger beweegt.
+
+(addImage = voeg afbeelding toe, touch = aanraking, previousPlaceDistance = afstand tot vorige plaatje)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Begrijp je het?
+
+Als je een grotere waarde gebruikt, moet je je vinger verder verplaatsen voordat `touch.previousPlaceDistance` die waarde bereikt en de sterren worden daardoor verder uit elkaar geplaatst. Probeer een aantal verschillende waarden.
+
+(touch = aanraking, previousPlaceDistance = afstand tot vorige plaatje)
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

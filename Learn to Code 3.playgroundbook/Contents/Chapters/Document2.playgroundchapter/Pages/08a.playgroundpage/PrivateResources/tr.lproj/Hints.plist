@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Uzay nesnesini ve rengi almak için `things[index]` ve `colors[index]` kullan.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let graphic = Graphic(text: things[index])`\
+\
+`graphic.textColor = colors[index]`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Bravo!
+
+Tıpkı görüntü yerleştirmek için **Görüntü** aracını kullandığın gibi metin yerleştirmek için de **Metin** aracını kullanabilirsin. Her iki araç da parmağın hareket ederken sahneye `Graphic` örnekleri yerleştirir.
+
+[**Sonraki Sayfa**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

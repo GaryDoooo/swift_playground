@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Bu bulmacayı çözmenin birçok farklı yolu var. En uygun olduğunu düşündüğün yol hangisi olursa olsun bulmacayı çözmene yardımcı olacak blokları, geçitleri ve merdivenleri eklemek için dünya kurma becerilerini kullan.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

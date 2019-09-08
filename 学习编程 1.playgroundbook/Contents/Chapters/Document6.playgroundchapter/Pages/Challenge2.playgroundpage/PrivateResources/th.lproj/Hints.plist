@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>ให้คำนึงถึงเครื่องมือทั้งหมดที่คุณได้เรียนรู้มาจนถึงตอนนี้: [ฟังก์ชั่น](glossary://function), [`for` loop](glossary://for%20loop), [`while` loop](glossary://while%20loop), [โค้ดที่ทำงานผ่านเงื่อนไข](glossary://conditional%20code) และ[ตัวดำเนินการ](glossary://logical%20operator) คุณสามารถใช้เครื่องมือที่มีอยู่เหล่านี้ไขปริศนานี้ได้อย่างไร</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

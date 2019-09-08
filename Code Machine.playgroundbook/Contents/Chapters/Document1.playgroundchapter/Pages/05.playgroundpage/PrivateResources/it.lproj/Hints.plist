@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Prova a cambiare l'elemento spring (molla) con un altro, come seed (seme) o gear (ingranaggio).</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Assicurati di trasmettere `item` come [argomento](glossary://argument) per `setItemA()`. In questo modo, l'elemento usato da `setItemA()` arriva dall'array e cambia ogni volta che si esegue il ciclo.
+
+- callout(Esempio):
+    ```
+    for item in items {
+        setItemA(item)
+        setItemB(.dirt)
+        switchLightOn(.blue)
+        forgeItems()
+    }
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Prova a cambiare il colore della luce accesa.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Per includere nuovi elementi nel ciclo, aggiungili all’array `items`.</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

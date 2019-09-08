@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>首先，尋找關卡中的模式。找到模式後，思考哪些規則和指令可解決模式中的每個部分。想出方法後，編寫你的程式碼。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>注意，只要有寶石出現，道路就往右延伸。只要有開關出現，道路就往左延伸。利用這個模式來建立你的演算法吧。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

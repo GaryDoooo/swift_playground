@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Tryck på bilden du använde till att skapa grafiken och välj en annan bild. Prova med grodan, en utomjording eller till och med ett vänligt monster 👾.
+	</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Du är en 🌟?
+
+Istället för att dra fingret kan du prova att trycka på olika platser på scenen. Lägg märke till att en ny grafik läggs till varje gång du trycker. Det beror på att en tryckning orsakar en enda pekhändelse så att `addImage()` bara anropas en gång.
+
+[**Nästa sida**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

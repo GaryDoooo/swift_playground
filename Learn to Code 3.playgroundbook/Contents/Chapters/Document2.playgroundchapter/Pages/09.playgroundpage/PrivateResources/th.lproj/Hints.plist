@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+วางภาพในแต่ละเขต คำนวนพิกัด (x, y) ในแต่ละอัน\
+เพื่อเป็นตัวอย่าง เรียกตำแหน่งของภาพในเขตด้านล่างซ้าย:\
+`let position3 = Point(x: -x, y: -y)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**ไอเดีย:** ตั้งค่าให้ `rotation` และ `scale` ของแต่ละภาพให้เป็นค่าแบบสุ่มค่าเดียวกัน:\
+`let rotation = randomDouble(from: 0, to: 180)`\
+`let scale = randomDouble(from: 0.5, to: 2.5)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**ไอเดีย:** ทำให้แต่ละภาพจางหายไปหลังจากช่วงระยะเวลาหนึ่ง:\
+`graphic.fadeOut(after: 2.0)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**ไอเดีย:** ย้ายแต่ละภาพลงในตำแหน่งจากตำแหน่งที่สัมผัส:\
+`scene.place(graphics[0], at: touch.position)`\
+`graphics[0].move(to: position1, duration: 2.0)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+นี่คือหน้าเพจ **ที่ถูกสร้าง** และไม่มีวิธีแก้ไขปัญหาเตรียมไว้ให้ คุณจะมีอิสระในการคิดไอเดียอย่างสร้างสรรค์
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

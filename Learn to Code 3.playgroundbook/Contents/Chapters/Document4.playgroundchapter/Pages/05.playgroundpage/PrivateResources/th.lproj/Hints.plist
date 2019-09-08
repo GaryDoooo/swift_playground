@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+สร้างชื่อแทนชนิด `Tool` โดยตั้งชื่อและไอคอนอิโมจิให้
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ตั้งค่าคุณสมบัติ `onFingerMoved` ของเครื่องมือไปเป็นชื่อเต็มของตัวจัดการเหตุการณ์ “นิ้วถูกเคลื่อนย้าย”
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ตั้งค่าคุณสมบัติ `onGraphicTouched` ของเครื่องมือไปเป็นชื่อเต็มของตัวจัดการเหตุการณ์ “ภาพถูกสัมผัส”
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### ทำได้เยี่ยมมาก!
+
+**อย่าลืมว่า** คุณสมบัติของเครื่องมือเหล่านี้:
+
+* `onFingerMoved`: นำตัวจัดการเหตุการณ์ “นิ้วมือถูกเคลื่อนย้าย” ไว้กับพารามิเตอร์ `Touch` 
+
+* `onGraphicTouched`: นำตัวจัดการเหตุการณ์ “ภาพถูกสัมผัส” ไว้กับพารามิเตอร์ `Graphic` 
+
+ใน [**หน้าถัดไป**](@next) คุณจะค้นพบวิธีการปรับแต่งภาพเมื่อคุณแตะมัน
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

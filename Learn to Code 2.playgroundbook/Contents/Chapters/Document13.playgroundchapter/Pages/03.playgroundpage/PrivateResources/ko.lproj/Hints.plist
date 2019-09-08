@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>배열에서 항목을 삭제하려면 [점 표기법](glossary://dot%20notation)을 사용하여 **`remove(at: Int)`** [메소드](glossary://method)를 호출하세요. **`characters.remove(at: 3)`**</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

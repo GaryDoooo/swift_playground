@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Intenta cambiar el resorte por otro elemento, como una semilla o un engrane.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Asegúrate de pasar `item` como tu [argumento](glossary://argument) en `setItemA()`. De esta forma, el elemento que usa `setItemA()` viene del arreglo y cambia cada vez que se ejecuta el ciclo.
+
+- callout(Ejemplo):
+    ```
+    for item in items {
+        setItemA(item)
+        setItemB(.dirt)
+        switchLightOn(.blue)
+        forgeItems()
+    }
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Intenta cambiar el color de la luz que está encendida.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Para incluir elementos nuevos en el ciclo, agrégalos al arreglo `items`.</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

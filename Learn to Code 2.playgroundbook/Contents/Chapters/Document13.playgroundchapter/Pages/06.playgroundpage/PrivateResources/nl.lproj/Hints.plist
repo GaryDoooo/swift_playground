@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Je kunt een array met alle coördinaten uit rij `2` maken met behulp van deze methode: `world.row(2)`.
+
+(world = wereld, row = rij)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

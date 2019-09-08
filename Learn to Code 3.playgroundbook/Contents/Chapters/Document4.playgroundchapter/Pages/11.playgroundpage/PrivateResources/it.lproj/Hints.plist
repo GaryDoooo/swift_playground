@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Usa lo strumenti **Sposta** per spostare l’immagine dello strumento più vicino al centro (per una tonalità più acuta) o più lontano (per una tonalità più grave).
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Ti vengono forniti due strumenti, ma puoi modificarli o aggiungerne altri. Scorri verso il basso fino a `// Aggiungi strumenti` nel codice.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Prova a far scorrere il dito in giro sull’immagine dello strumento.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Non limitarti agli strumenti musicali. Puoi aggiungere altri strumenti per riprodurre effetti sonori o per pronunciare del testo.
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

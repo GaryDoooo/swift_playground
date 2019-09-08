@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Lembre-se de que a cena é quadrada e que ela vai de `Point(x: -500, y: -500)`, na parte inferior esquerda, até `Point(x: 500, y: 500)` na parte superior direita.
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Desenhe o universo em uma folha de papel e marque a origem (0, 0). Marque o local onde você acha que está o centro da galáxia e calcule aproximadamente as coordenadas.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+A galáxia está no quadrante superior direito da cena. Portanto, suas coordenadas serão algo como (x, y).
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Você conseguiu!
+
+Sempre que quiser colocar um gráfico novo na cena, crie primeiro uma instância do tipo `Graphic` e chame o método `place()` da cena, passando a instância de `Graphic` e um valor de `Point`.
+
+[**Página Seguinte**](@next)
+            </string>
+		</dict>
+	</dict>
+</dict>
+</plist>

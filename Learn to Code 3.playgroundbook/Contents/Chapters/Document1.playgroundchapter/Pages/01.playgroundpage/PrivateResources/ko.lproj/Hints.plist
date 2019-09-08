@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+코딩 영역이 정사각형이라는 점을 잘 생각해 보세요. 또한, 왼쪽 하단 모서리의 좌표는 `Point(x: -500, y: -500)`이고 오른쪽 상단 모서리의 좌표는 `Point(x: 500, y: 500)`입니다.
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+우주를 종이 위에 똑같이 그리고 원점(0, 0)을 표시한 후, 은하수의 중심을 표시해 봅니다. 그런 다음, 은하수의 중심에 대한 좌표 값을 대략적으로 계산해 보세요.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+은하수는 오른쪽 상단 부분에 있기 때문에 (x, y)와 같은 값이 해당하는 좌표가 됩니다.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string></string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 바로 그거예요!
+
+코딩 영역에 새로운 그래픽을 추가하려면 먼저 `Graphic` 유형의 인스턴스를 생성한 다음, 코딩 영역의 `place()` 메소드를 호출하여 `Graphic` 인스턴스와 `Point` 값을 전달하면 됩니다.
+
+[**다음 페이지**](@next)
+            </string>
+		</dict>
+	</dict>
+</dict>
+</plist>

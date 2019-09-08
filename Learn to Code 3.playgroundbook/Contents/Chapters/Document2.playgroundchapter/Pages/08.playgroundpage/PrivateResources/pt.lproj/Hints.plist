@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Obtenha a posição seguinte e incremente `pointIndex`:\
+`let position = points[pointIndex]`\
+`pointIndex += 1`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Redefina `pointIndex` para que ele fique dentro dos limites do vetor:\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Get position.`\
+`let position = points[pointIndex]`\
+`// Increment pointIndex.`\
+`pointIndex += 1`\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`\
+`// Move graphic to position.`\
+`graphic.move(to: position, duration: 1.0)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Parabéns!
+
+Experimente com pontos, funções e parâmetros diferentes para obter padrões diferentes.
+
+**Desafio:** os pontos retornados por uma função de padrão são posicionados ao redor do centro da cena. Você pode adicionar facilmente um deslocamento x, y a cada ponto, colocando o padrão no local que desejar. Veja se você consegue colocar vários padrões em diversos locais da cena.
+
+[**Página Seguinte**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>尝试将 spring（弹簧）与其他物品进行交换，如 seed（种子）或 gear（齿轮）。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>确保将 `item` 作为[实参](glossary://argument)传入 `setItemA()`。通过这种方式，`setItemA()` 使用的物品来自于数组，并随每次循环的运行而更改。
+
+- callout(示例):
+    ```
+    for item in items {
+        setItemA(item)
+        setItemB(.dirt)
+        switchLightOn(.blue)
+        forgeItems()
+    }
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>尝试更改点亮的灯的颜色。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>若要在循环中包含新物品，请将其添加到 `items`（物品）数组。</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

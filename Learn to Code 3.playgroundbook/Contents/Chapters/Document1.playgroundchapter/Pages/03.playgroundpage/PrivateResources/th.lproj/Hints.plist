@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ร่าง x และ y ลงบนกระดาษเพื่อช่วยให้คุณคิดพิกัดออก อย่าลืมว่า x คือแกนแนวนอนและ y คือแนวตั้งพร้อมกับ (0, 0) ที่จุดศูนย์กลาง
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+พิกัดในเขตแต่ละสี่เขตจะมีการผสมกันของค่าบวกหรือค่าลบ x, y ที่ไม่เท่ากัน ด้านขวาบน: (+, +), ด้านขวาล่าง: (+, -) ด้านซ้ายล่าง: (-, -), และด้านบนซ้าย: (-, +)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### ทำได้ดี!
+
+ โค้ดของคุณจะเป็นอย่างไรนะถ้าคุณวางวัตถุ 10 อย่างลงในฉาก หรือไม่ก็ 30 อัน! สังเกตดูว่าจะมีโค้ดซ้ำมากแค่ไหน เมื่อไหร่ก็ตามที่คุณเห็นโค้ดซ้ำแบบนี้ ให้ถามตัวเองว่า “มีวิธีที่ดีกว่านี้หรือเปล่า”
+ 
+ **ข้อคิด:** มีวิธีที่มีประสิทธิภาพมากกว่านี้ในการใช้อาร์เรย์หรือไม่
+
+ ค้นพบคำตอบได้ที่ [**หน้าถัดไป**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

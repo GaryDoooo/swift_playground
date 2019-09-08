@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ฟังก์ชั่น `addImage()` จะคืนค่าโดยไม่ต้องดำเนินการอะไรถ้า `touch.previousPlaceDistance` มีน้อยกว่าบางค่า ให้เปลี่ยนค่านี้เป็น 80: การดำเนินการนี้จะขยับภาพ ⭐️ ให้ห่างจากกันเมื่อคุณขยับนิ้ว
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### เข้าใจไหม
+
+ถ้าคุณใช้ค่าที่มากกว่าเดิม นิ้วของคุณจากต้องเคลื่อนที่ไกลกว่าเดิมก่อนที่ `touch.previousPlaceDistance` จะไปถึงค่านั้นๆ  และดาวก็จะถูกวางห่างออกไปอีก ลองใช้ค่าที่แตกต่างออกไปดูก่อน
+
+[**หน้าถัดไป**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

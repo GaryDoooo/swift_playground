@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Je moet een instantie van je figuurtje op elke tegel in de virtuele wereld plaatsen. Pas de [array](glossary://array) zo aan dat alle rijwaarden van `0` tot `5` worden opgenomen.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

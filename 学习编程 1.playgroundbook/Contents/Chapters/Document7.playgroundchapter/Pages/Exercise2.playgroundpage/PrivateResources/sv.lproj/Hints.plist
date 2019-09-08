@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Ta den befintliga koden från den föregående övningen och se om du kan få den att fungera för att lösa det här lite annorlunda pusslet. Observera att du nu måste välja en annan åtgärd när du blir blockerad både framtill och till höger, istället för att bara vara blockerad till höger.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

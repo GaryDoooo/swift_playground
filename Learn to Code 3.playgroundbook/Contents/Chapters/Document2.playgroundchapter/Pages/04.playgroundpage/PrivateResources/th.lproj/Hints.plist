@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ถ้าคุณคอยเพิ่ม `index` ทีละ `1` สุดท้ายแล้วก็จะชี้  *เกิน* รายการสุดท้ายในอาร์เรย์ `animals` ถ้าสิ่งนี้เกิดขึ้น คุณสามารถตั้งค่า `index` ให้กลับไปเป็น `0` ได้ จากนั้นจึงจะเป็นการพร้อมที่จะวน loop ผ่านอาร์เรย์อีกครั้ง
+
+หลังจากการเพิ่ม `index` ให้ตรวจสอบว่ามีค่าเท่ากับ `animals.count` หรือไม่ ถ้ามีค่าเท่ากัน ให้ตั้งค่า `index` เท่ากับ `0` เพื่อที่จะได้ชี้กลับไปที่รายการแรกในอาร์เรย์
+			</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+ `if index == animals.count {`\
+ `   index = 0`\
+ `}`		
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### ทำดีแล้ว!
+
+อย่าลืมว่าดัชนีของอาร์เรย์นั้นเริ่มต้นที่ 0 เป็นรายการแรกและอาร์เรย์ที่ติดลบ 1 เป็นรายการสุดท้าย ดังนั้นถ้าดัชนี *เท่ากับ* จำนวนที่นับ ดัชนีจะนับผ่านสุดสิ้นสุดของอาร์เรย์ไปและถึงเวลาที่จะตั้งค่าดัชนีให้กลับเป็น 0
+
+[**หน้าถัดไป**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

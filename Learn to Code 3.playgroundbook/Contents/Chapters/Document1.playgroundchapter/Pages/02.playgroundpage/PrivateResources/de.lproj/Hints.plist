@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Du kannst aus den verfügbaren Bildern oder aus deiner Fotomediathek ein Hintergrundbild auswählen. Du kannst sogar mit der Kamera ein Foto für den Hintergrund aufnehmen!
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Eine wunderschöne Szene!
+
+Wenn du ein Bild wählst, das transparente Teile besitzt, sieht man die Hintergrundfarbe durch die transparenten Teile des Bilds hindurch. Wenn es keine Hintergrundfarbe gibt, siehst du ein Schachbrettmuster. Du kannst die Hintergrundfarbe wie folgt festlegen:
+
+`scene.backgroundColor = ◼️`
+
+[**Nächste Seite**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

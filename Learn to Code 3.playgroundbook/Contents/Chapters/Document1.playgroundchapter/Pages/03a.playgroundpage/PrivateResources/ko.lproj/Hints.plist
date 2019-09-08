@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+자막을 놓을 위치를 대략적으로 계산하고 `Point(x:y:)`를 사용하여 좌표를 생성하세요.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`let graphic3 = Graphic(text: caption3)`\
+`scene.place(graphic3, at: Point(x: 250, y: -290))`\
+`let graphic4 = Graphic(text: caption4)`\
+`scene.place(graphic4, at: Point(x: -350, y: -340))`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 잘했어요!
+
+**아이디어:** 가지고 있는 사진을 배경 이미지로 사용해 보세요. 친구들과 찍은 셀카도 좋아요. 사진에 자막을 달아보세요!
+
+[**다음 페이지**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>ดูที่ปริศนาแล้วดูว่าคุณสามารถค้นหาวิธีแก้ไขที่ใช้ [loop](glossary://loop) ได้หรือไม่ วิธีการอื่นหลายๆ วิธีจะแก้ไขปัญหาได้อีกหรือไม่</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

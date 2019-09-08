@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+เรียกตำแหน่งต่อไป และจำนวนค่าที่เพิ่มขึ้น `pointIndex`:\
+`let position = points[pointIndex]`\
+`pointIndex += 1`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+รีเซ็ตค่า `pointIndex` ใหม่เพื่อที่จะได้ยังอยู่ภายในขอบเขตของอาร์เรย์:\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Get position.`\
+`let position = points[pointIndex]`\
+`// Increment pointIndex.`\
+`pointIndex += 1`\
+`if pointIndex == points.count {`\
+`   pointIndex = 0`\
+`}`\
+`// Move graphic to position.`\
+`graphic.move(to: position, duration: 1.0)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### ยินดีด้วย
+
+ทดสอบจุด ฟังก์ชั้น และพารามิเตอร์ที่แตกต่างกันเพื่อให้ได้รูปแบบที่แตกต่างกันออกไป
+
+**ด่าน:** จุดที่คืนค่ากลับมาเป็นฟังก์ชั่นรูปแบบนั้นถูกวางอยู่รอบๆ จุดศูนย์กลางของฉาก คุณสามารถเพิ่ม x, y ไปยังแต่ละจุดและวางรูปแบบตามที่คุณต้องการได้อย่างง่ายดาย ดูว่าคุณสามารถวางรูปแบบหลายแบบบนตำแหน่งต่างๆ ของฉากได้หรือไม่
+
+[**หน้าถัดไป**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

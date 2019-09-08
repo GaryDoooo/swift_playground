@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>嘗試將 spring（彈簧）更換成其他項目，例如 seed（種子）或 gear（齒輪）。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>確認你將 `item` 傳入了 `setItemA()` 做為[引數](glossary://argument)。這樣，項目會被來自陣列的 `setItemA()` 所使用，並在每次執行迴圈時更改。
+
+- callout(範例):
+    ```
+    for item in items {
+        setItemA(item)
+        setItemB(.dirt)
+        switchLightOn(.blue)
+        forgeItems()
+    }
+    ```</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>試著更改已開啟的燈光顏色。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>若要在迴圈中包含新項目，請將項目加入 `items` 陣列。</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

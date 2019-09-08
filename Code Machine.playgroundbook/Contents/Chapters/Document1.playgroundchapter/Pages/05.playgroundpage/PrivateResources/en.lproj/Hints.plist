@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Try exchanging the spring with some other item, like the seed or the gear.</string>
+			</dict>
+		</dict>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Content</key>
+                <string>Make sure you pass in `item` as your [argument](glossary://argument) to `setItemA()`. This way, the item used by `setItemA()` comes from the array and changes each time the loop runs.
+
+- callout(Example):
+    ```
+    for item in items {
+        setItemA(item)
+        setItemB(.dirt)
+        switchLightOn(.blue)
+        forgeItems()
+    }
+    ```</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Content</key>
+                <string>Try changing the color of the light that’s on.</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>_LOCALIZABLE_</key>
+            <dict>
+                <key>Content</key>
+                <string>To include new items in the loop, add them to the `items` array.</string>
+            </dict>
+        </dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

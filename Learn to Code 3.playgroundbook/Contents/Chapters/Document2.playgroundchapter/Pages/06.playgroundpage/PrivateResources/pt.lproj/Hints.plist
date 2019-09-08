@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Defina `index` para que ele aponte para um item aleatório no vetor:\
+`let index = randomInt(from: 0, to: animals.count - 1)`
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`rotation` pode ter qualquer valor `Double`, em graus, de `0` a `360`.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Set index to a random value.`\
+`let index = randomInt(from: 0, to: animals.count - 1)`\
+\
+`// Scale and rotate graphic.`\
+`graphic.scale = randomDouble(from: 0.5, to: 2.0)`\
+`graphic.rotation = randomDouble(from: 0.0, to: 360.0)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Ótimo!
+
+Crie o seu próprio vetor de imagens e use `scale` e `rotation` para experimentar.
+
+[**Página Seguinte**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

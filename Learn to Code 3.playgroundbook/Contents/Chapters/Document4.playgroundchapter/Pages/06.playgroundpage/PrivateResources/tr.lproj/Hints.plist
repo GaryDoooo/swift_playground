@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Dokunulan grafiğin `alpha` değerini 0.25 gibi bir değere ayarlarsan grafik neredeyse saydam olur.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+`graphic.alpha`’nın 1’den küçük olup olmadığını denetlemek için `&lt;` işleciyle bir `if` ifadesi kullan.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Modify alpha.`\
+`if graphic.alpha &lt; 1.0 {`\
+`   graphic.alpha = 1.0`\
+`} else {`\
+`   graphic.alpha = 0.25`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Bravo!
+
+Bir [**sonraki sayfada**](@next) grafikleri ezerken çok eğleneceksin!
+			</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+	<title>algorithms</title>
+	<style>
+		html {
+			height:100%;
+		}
+		body {
+			background-color:#97C4FF;
+			margin:0;
+			height:100%;
+		}
+	</style>
+	<!-- copy these lines to your document head: -->
+
+	<meta name="viewport" content="user-scalable=no, width=1024" />
+	
+	
+	
+	
+	
+	
+	
+	
+	<link rel="stylesheet" type="text/css" href="algorithms.hyperesources/axstyles.css" />
+	<script type="text/javascript" src="algorithms.hyperesources/axworkarounds.js"></script>
+	<link rel="stylesheet" type="text/css" href="algorithms.hyperesources/axstyles.css">
+	<script type="text/javascript" src="algorithms.hyperesources/axworkarounds.js"></script>
+
+	<!-- end copy -->
+  </head>
+  <body>
+	<!-- copy these lines to your document: -->
+
+	<div id="algorithms_hype_container" style="margin:auto;position:relative;width:100%;height:100%;overflow:hidden;">
+		<script type="text/javascript" charset="utf-8" src="algorithms.hyperesources/algorithms_hype_generated_script.js?43788"></script>
+	</div>
+
+	<!-- end copy -->
+	
+
+
+	<!-- text content for search engines: -->
+
+	<div style="display:none" aria-hidden=true>
+
+		<div>演算法
+</div>
+		<div></div>
+		<div>首先，編寫一個演算法，使車一直向前開，遇到空停車位才停下來。</div>
+		<div>演算法是一組用來解決問題的規則和指示。</div>
+		<div>1/9</div>
+		<div>例如，導航 App 會使用演算法來找出前往目的地的最快路線。
+</div>
+		<div>為避開塞車：
+</div>
+		<div>選擇行程時間最短的路線。
+</div>
+		<div>8/9</div>
+		<div>3/9</div>
+		<div>18 分鐘</div>
+		<div>糟糕！你還需要改善你的演算法。</div>
+		<div>比較距離和平均速度。
+</div>
+		<div>比較目前路況。
+</div>
+		<div>目前，你編寫的很多程式碼都包含解決問題的指示。從這個角度上來說，你一直都在編寫演算法。</div>
+		<div>右轉之後，車子應該往前開並且繞著大樓行駛。</div>
+		<div>5/9</div>
+		<div>現在，假設你要指揮一輛車繞樓行駛來找空停車位。</div>
+		<div>你現在要學習的技能是，編寫並改善程式碼，使它能夠用於不同的情況。</div>
+		<div>你可以使用哪些指令和規則讓車繞樓行駛？
+</div>
+		<div>35 分鐘</div>
+		<div>糟糕！演算法沒有告訴車要在大樓的盡頭轉彎。</div>
+		<div>2/9</div>
+		<div>為使車繞樓行駛，建立一個規則，不斷重複檢查車的右邊是否受阻。</div>
+		<div>6/9</div>
+		<div>while !isInParkingSpace {   if isBlockedRight {
+      driveForward()
+   } else {
+      turnRight()
+   }
+}</div>
+		<div>一步一步</div>
+		<div>25 分鐘</div>
+		<div>4/9</div>
+		<div>while !isInParkingSpace {   driveForward()
+}</div>
+		<div>如果車子的右邊沒有受阻，表示它已到達大樓的盡頭，此時應該右轉。</div>
+		<div>開始程式設計</div>
+		<div>7/9</div>
+		<div>while !isInParkingSpace {   if isBlockedRight {
+      driveForward()
+   } else {
+      turnRight()
+      driveForward()
+   }
+}</div>
+
+	</div>
+
+	<!-- end text content: -->
+
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Als je problemen hebt met het tikken op de UFF's, kun je de omlooptijd van de UFF's verhogen in `addFructoid`, zodat ze langzamer bewegen.
+
+(addFructoid = voeg vrucht toe)
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Wanneer de waarde `scale` van het aangeraakte plaatje onder een bepaald niveau daalt (bijvoorbeeld 0.6), vernietig je het plaatje met `graphic.moveAndZap(to: blackHole.position)`.
+
+(scale = grootte, graphic = plaatje, moveAndZap = verplaats en blaas op, to = naar, blackHole.position = positie zwart gat)
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Add code here.`\
+`graphic.scale -= 0.5`\
+`graphic.alpha -= 0.25`\
+`if graphic.scale &lt; 0.6 {`\
+`   graphic.moveAndZap(to: blackHole.position)`\
+`}`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Je bent geslaagd voor je examen UFF's vernietigen!
+
+**Uitdaging:** probeer ervoor te zorgen dat sommige vruchten moeilijker te vernietigen zijn. Er wordt een plaatje van een vrucht aangemaakt met een emoji, zodat je de eigenschap `text` als volgt kunt controleren: `if graphic.text == "🍏"`. Als je de waarden van `scale` en `alpha` vermindert, heb je meer aanrakingen nodig om de vrucht te vernietigen.
+
+(text = tekst, graphic = plaatje, scale = grootte, alpha = alfa)
+
+Op de [**volgende pagina**](@next) leer je hoe je met één enkele knop alle UFF's in één keer vernietigt!
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>**`randomInt`** 함수를 사용하여 임의의 숫자를 생성하고 `heights`에 추가합니다. [`for` 루프](glossary://for%20loop)를 사용하여 이 작업을 수행할 수 있습니다.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

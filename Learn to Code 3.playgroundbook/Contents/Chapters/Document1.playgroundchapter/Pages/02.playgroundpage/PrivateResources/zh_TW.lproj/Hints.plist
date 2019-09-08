@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+你可以從可用的影像或照片圖庫中選取背景影像。甚至可以用相機來拍攝照片做為背景！
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 多麼美妙的場景！
+
+如果你選取的影像具有透明或穿透的部分，則背景顏色將透過影像的透明部分顯現出來。如果沒有背景顏色，那麼你會看到如同棋盤一般的圖案。你可以像這樣來設定背景顏色：
+
+`scene.backgroundColor = ◼️`
+
+[**下一頁**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

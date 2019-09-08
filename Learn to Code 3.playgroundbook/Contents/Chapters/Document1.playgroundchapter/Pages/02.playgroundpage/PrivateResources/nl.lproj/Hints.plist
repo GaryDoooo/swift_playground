@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Je kunt een achtergrondafbeelding kiezen uit de beschikbare afbeeldingen of uit je fotobibliotheek. Je kunt zelfs de camera gebruiken om een foto te maken voor de achtergrond!
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Wat een prachtig tafereel!
+
+Als je een afbeelding kiest die doorzichtig is of enkele delen heeft waar je doorheen kunt kijken, dan is de achtergrondkleur zichtbaar door de doorzichtige delen van de afbeelding. Als er geen achtergrondkleur is, zie je een dambordpatroon. Je kunt de achtergrondkleur als volgt instellen:
+ 
+`scene.backgroundColor = ◼️`
+
+(scene = tafereel, backgroundColor = achtergrondkleur)
+
+[**Volgende pagina**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

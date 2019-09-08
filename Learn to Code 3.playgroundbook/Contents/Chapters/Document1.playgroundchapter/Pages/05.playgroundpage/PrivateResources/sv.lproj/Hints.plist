@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Kom ihåg:** Det första objektet i en array finns på index 0.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**Tips:** När du jobbar med [arrayer](glossary://array) och [index](glossary://index) kan det underlätta om du har papper och penna för att rita upp arrayen med dess objekt och deras index.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Insert and remove items.`\
+`images.insert(rugbyBall, at: 1)`\
+`images.remove(at: 4)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Suveränt!
+
+Att hålla koll på arrayindex kan vara knepigt! Säg att du tog bort planeten Biljardboll och sedan ville infoga planeten Rugby-fotboll i slutet av arrayen, efter planeten Basketboll. Vid vilket index skulle du infoga planeten Rugby-fotboll?
+
+[**Nästa sida**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Grafiği yaratmak için kullanılan görüntüye dokun ve farklı bir görüntü seç. Kurbağayı, uzaylıyı hatta sevimli canavarı 👾 dene.
+	</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Sen bir 🌟’sın!
+
+Parmağını sürüklemek yerine sahnenin farklı yerlerine dokunmayı dene. Her dokunduğunda yeni bir grafiğin eklendiğine dikkat et. Bunun nedeni, dokunma hareketinin tek bir dokunmatik olaya neden olması ve `addImage()` fonksiyonunun yalnızca bir kez çağrılmasıdır.
+
+[**Sonraki Sayfa**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

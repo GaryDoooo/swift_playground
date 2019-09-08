@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>ใช้เครื่องจักรเพื่อ[หลอม](glossary://forge)รายการใหม่! ที่ต้องทำก็แค่ตั้งค่าข้อมูลเข้าของคุณด้วย `setItemA()` และ `setItemB()` แล้วใช้ `forgeItems()` เพื่อรวมเข้าด้วยกัน
+- callout(Example):
+    ```
+    setItemA(.metal)
+    setItemB(.dirt)
+    forgeItems()
+    ```</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>เครื่องจักรต้องการลูกตาใหม่ คุณช่วยหน่อยได้ไหม ลองผสาน DNA กับวัตถุอื่นแล้วดูสิ่งที่เครื่องจักรสร้าง</string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>เครื่องจักรอาจต้องใช้โลหะในลูกตาด้วย</string>
+			</dict>
+		</dict>
+	</array>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

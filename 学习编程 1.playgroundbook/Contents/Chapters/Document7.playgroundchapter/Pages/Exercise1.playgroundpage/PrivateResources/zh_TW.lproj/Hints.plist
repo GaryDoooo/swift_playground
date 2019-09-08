@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>首先執行所提供的程式碼。函數 `navigateAroundWall()` 會讓你的角色繞著關卡世界中的一面牆壁一直走。使用現有的程式碼加以調整，從而收集世界中最遠處角落的寶石並切換開關。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Probeer andere lettertypen zoals `bradleyHand`, `markerfelt` of `zapfino`.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Gebruik de tool **Verplaats** om de posities van je plaatjes aan te passen.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Je gebruikt de eigenschap `rotation` van `Graphic` als volgt: `graphic1.rotation = 30`.
+
+(rotation = rotatie, Graphic = plaatje)
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

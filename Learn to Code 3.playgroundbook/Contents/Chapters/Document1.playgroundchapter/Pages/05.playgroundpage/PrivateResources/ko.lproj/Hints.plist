@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**잊지 마세요:** 배열의 첫 번째 항목은 인덱스 0에 있습니다.
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+**팁:** [배열](glossary://array)과 [인덱스](glossary://index)로 작업하는 경우, 연필과 종이를 가지고 항목과 배열을 그리고 인덱스를 계산하는 것도 도움이 됩니다.
+		</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+`// Insert and remove items.`\
+`images.insert(rugbyBall, at: 1)`\
+`images.remove(at: 4)`
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### 정말 대단해요!
+
+배열의 인덱스를 계산하는 것은 쉽지 않습니다. 당구공 행성을 제거한 다음, 럭비공 행성을 배열 끝에 있는 농구공 행성 다음에 추가하려고 한다면 럭비공 행성을 삽입해야할 인덱스 값은 무엇일까요?
+
+[**다음 페이지**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

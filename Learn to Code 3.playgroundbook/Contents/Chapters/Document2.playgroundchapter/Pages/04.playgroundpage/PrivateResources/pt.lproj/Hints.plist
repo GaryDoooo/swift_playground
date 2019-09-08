@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+Se você continuar a incrementar `index` em `1`, ele apontará eventualmente para *além* do último item do vetor `animals`. Caso isso aconteça, você pode definir `index` em `0` novamente. Ele estará estão pronto para repetir o vetor novamente.
+
+Após incrementar `index`, verifique se ele é igual a `animals.count`. Se for, defina `index` para que ele seja igual a `0`, de modo que aponte novamente para o primeiro item do vetor.
+			</string>
+			</dict>
+		</dict>
+	</array>
+	<key>solution</key>
+	<string>
+ `if index == animals.count {`\
+ `   index = 0`\
+ `}`		
+	</string>
+	<key>success</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Content</key>
+			<string>
+### Bom trabalho!
+
+Lembre-se que o índice de um vetor começa em 0 — o primeiro item — e vai até a contagem do vetor menos 1 — o último item. Portanto, se o índice for *igual* à contagem, ele terá passado do final do vetor e será o momento de definir o índice em 0 novamente.
+
+[**Página Seguinte**](@next)
+	</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

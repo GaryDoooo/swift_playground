@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>지금까지 배운 기술을 다시 살펴보세요. [함수](glossary://function), [`for` 루프](glossary://for%20loop), [`while` 루프](glossary://while%20loop), [조건 코드](glossary://conditional%20code), [연산자](glossary://logical%20operator)가 있네요. 이 기술들을 활용하여 퍼즐을 해결하려면 어떻게 해야 할까요?</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ในการเคลื่อนย้ายภาพ ให้เลือกเครื่องมือ **เคลื่อนย้าย** และลากภาพด้วยนิ้วของคุณ
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+ในการลบภาพ ให้เลือกเครื่องมือ **ลบ** และแตะที่ภาพ
+		</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>
+นี่คือหน้าเพจ **ทดสอบ** และไม่มีวิธีแก้ไขปัญหาเตรียมไว้ให้ คุณมีอิสระในการเล่นให้สนุกไปกับการทดลองและได้มาซึ่งวิธีแก้ปัญหาของคุณเอง
+		</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
